@@ -23,7 +23,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/fashi';
+if(isset($_SERVER['HTTP_HOST'])){
+	$domain = $_SERVER['HTTP_HOST'];
+} else {
+	// Tá»“n táº¡i trong trÆ°á»�ng há»£p cháº¡y crontab
+	$domain = $_SERVER['argv'][3];
+}
+
+if(!empty($_SERVER['HTTPS'])){
+	$config['base_url'] = 'https://'.$domain.'/fashi';
+} else {
+	$config['base_url'] = 'http://'.$domain.'/fashi';
+}
+
 
 /*
 |--------------------------------------------------------------------------
