@@ -1,98 +1,96 @@
-<footer class="footer-section">
-<div class="container">
-<div class="row">
-<div class="col-lg-3">
-<div class="footer-left">
-<div class="footer-logo">
-<a href="#"><img src="img/footer-logo.png" alt=""></a>
-</div>
-<ul>
-<li>Address: 60-49 Road 11378 New York</li>
-<li>Phone: +65 11.188.888</li>
-<li>Email: <a href="https://preview.colorlib.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="d1b9b4bdbdbeffb2bebdbea3bdb8b391b6bcb0b8bdffb2bebc">[email&#160;protected]</a></li>
-</ul>
-<div class="footer-social">
-<a href="#"><i class="fa fa-facebook"></i></a>
-<a href="#"><i class="fa fa-instagram"></i></a>
-<a href="#"><i class="fa fa-twitter"></i></a>
-<a href="#"><i class="fa fa-pinterest"></i></a>
-</div>
-</div>
-</div>
-<div class="col-lg-2 offset-lg-1">
-<div class="footer-widget">
-<h5>Information</h5>
-<ul>
-<li><a href="#">About Us</a></li>
-<li><a href="#">Checkout</a></li>
-<li><a href="#">Contact</a></li>
-<li><a href="#">Serivius</a></li>
-</ul>
-</div>
-</div>
-<div class="col-lg-2">
-<div class="footer-widget">
- <h5>My Account</h5>
-<ul>
-<li><a href="#">My Account</a></li>
-<li><a href="#">Contact</a></li>
-<li><a href="#">Shopping Cart</a></li>
-<li><a href="#">Shop</a></li>
-</ul>
-</div>
-</div>
-<div class="col-lg-4">
-<div class="newslatter-item">
-<h5>Join Our Newsletter Now</h5>
-<p>Get E-mail updates about our latest shop and special offers.</p>
-<form action="#" class="subscribe-form">
-<input type="text" placeholder="Enter Your Mail">
-<button type="button">Subscribe</button>
-</form>
-</div>
-</div>
-</div>
-</div>
-<div class="copyright-reserved">
-<div class="container">
-<div class="row">
-<div class="col-lg-12">
-<div class="copyright-text">
+  <!--Footer section start-->
+  <footer class="footer-section section bg-dark">
 
-Copyright &copy;<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com/" target="_blank">Colorlib</a>
+<!--Footer Top start-->
+<div
+    class="footer-top section pt-100 pt-lg-80 pt-md-70 pt-sm-60 pt-xs-50 pb-45 pb-lg-25 pb-md-15 pb-sm-5 pb-xs-0">
+    <div class="container">
+        <div class="row row-25">
 
+            <!--Footer Widget start-->
+            <div class="footer-widget col-lg-3 col-md-6 col-sm-6 col-12 mb-40 mb-xs-35">
+                <h4 class="title"><span class="text">About TheFace</span></h4>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat</p>
+                <div class="footer-social">
+                    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+                    <a href="#" class="linkedin"><i class="fa fa-instagram"></i></a>
+                    <a href="#" class="pinterest"><i class="fa fa-pinterest-p"></i></a>
+                    <a href="#" class="pinterest"><i class="fa fa-vimeo"></i></a>
+                </div>
+            </div>
+            <!--Footer Widget end-->
+
+            
+            <!--Footer Widget start-->
+            <div class="footer-widget col-lg-3 col-md-6 col-sm-6 col-12 mb-40 mb-xs-35">
+                <h4 class="title"><span class="text">Information</span></h4>
+                <ul class="ft-menu">
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">Delivery</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Gift Cards</a></li>
+                    <li><a href="#">Mobile</a></li>
+                    <li><a href="#">Gift Cards</a></li>
+                    <li><a href="#">Unsubscribe Notification</a></li>
+                </ul>
+            </div>
+            <!--Footer Widget end-->
+
+
+            <!--Footer Widget start-->
+            <div class="footer-widget col-lg-3 col-md-6 col-sm-6 col-12 mb-40 mb-xs-35">
+                <h4 class="title"><span class="text">Our Offers</span></h4>
+                <ul class="ft-menu">
+                    <li><a href="#">New products</a></li>
+                    <li><a href="#">Top sellers</a></li>
+                    <li><a href="#">Specials</a></li>
+                    <li><a href="#">Manufacturers</a></li>
+                    <li><a href="#">Suppliers</a></li>
+                    <li><a href="#">Specials</a></li>
+                    <li><a href="#">Service</a></li>
+                </ul>
+            </div>
+            <!--Footer Widget end-->
+
+            <!--Footer Widget start-->
+            <div class="footer-widget col-lg-3 col-md-6 col-sm-6 col-12 mb-40 mb-xs-35">
+                <h4 class="title"><span class="text">Contact us</span></h4>
+                <ul class="address">
+                    <li><i class="fa fa-home"></i><span>số 12, phố chùa Bộc, Đống Đa, Hà Nội</span>
+                    </li>
+                    <li><i class="fa fa-phone"></i><span><a href="#">0963 273 254</a></span></li>
+                    <li><i class="fa fa-envelope-o"></i><span><a href="#">thefacestore@gmail.com</a></span></li>
+                </ul>
+                <div class="payment-box mt-15 mb-15">
+                    <a href="#"><img src="assets/images/payment.png" alt=""></a>
+                </div>
+            </div>
+            <!--Footer Widget end-->
+        </div>
+    </div>
 </div>
-<div class="payment-pic">
-<img src="img/payment-method.png" alt="">
+<!--Footer Top end-->
+
+<!--Footer bottom start-->
+<div class="footer-bottom section">
+    <div class="container ft-border pt-40 pb-40 pt-xs-20 pb-xs-20">
+        <div class="row justify-content-between align-items-center">
+            <div class="col-lg-6 col-md-6 col-sm-8">
+                <div class="copyright text-left">
+                    <p>Copyright &copy;2019 <a href="#">Theface</a>. All rights reserved.</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-4">
+                <div class="footer-logo text-right">
+                    <a href="index.html"><img src="assets/images/logofoo.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-</div>
-</div>
-</div>
-</div>
+<!--Footer bottom end-->
+
 </footer>
-
-
-<script src="<?= base_url('assets/js/jquery-3.3.1.min.js'); ?>"></script>
-<script src="<?= base_url('assets/js/bootstrap.min.js'); ?>"></script>
-<script src="<?= base_url('assets/js/jquery-ui.min.js'); ?>"></script>
-<script src="<?= base_url('assets/js/jquery.countdown.min.js'); ?>"></script>
-<script src="<?= base_url('assets/js/jquery.nice-select.min.js'); ?>"></script>
-<script src="<?= base_url('assets/js/jquery.zoom.min.js'); ?>"></script>
-<script src="<?= base_url('assets/js/jquery.dd.min.js'); ?>"></script>
-<script src="<?= base_url('assets/js/jquery.slicknav.js'); ?>"></script>
-<script src="<?= base_url('assets/js/owl.carousel.min.js'); ?>"></script>
-<script src="<?= base_url('assets/js/main.js'); ?>"></script>
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-23581568-13');
-</script>
-<script defer src="../../../static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"62b974b529dbc755","si":10,"version":"2021.2.0"}'></script>
-</body>
-
-<!-- Mirrored from preview.colorlib.com/theme/fashi/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 06 Mar 2021 06:16:59 GMT -->
-</html>
+<!--Footer section end-->

@@ -8,8 +8,8 @@
                             <!--Links start-->
                             <div class="header-top-links">
                                 <ul>
-                                    <li><a href="#"><i class="fa fa-phone"></i>(08) 123 456 7890</a></li>
-                                    <li><a href="#"><i class="fa fa-envelope-open-o"></i>yourmail@domain.com</a></li>
+                                    <li><a href="#"><i class="fa fa-phone"></i>0963 273 254</a></li>
+                                    <li><a href="#"><i class="fa fa-envelope-open-o"></i>thefacestore@gmail.com</a></li>
                                 </ul>
                             </div>
                             <!--Links end-->
@@ -27,16 +27,16 @@
                         <div class="col-xl-6 col-lg-4">
                             <div class="ht-right d-flex justify-content-lg-end justify-content-center">
                                 <ul class="ht-us-menu d-flex">
-                                    <li><a href="#"><i class="fa fa-user-circle-o"></i>Login</a>
+                                    <li><a href="#"><i class="fa fa-user-circle-o"></i>Đăng nhập</a>
                                         <ul class="ht-dropdown right">
-                                            <li><a href="compare.html">Compare Products</a></li>
-                                            <li><a href="my-account.html">My Account</a></li>
-                                            <li><a href="wishlist.html">My Wish List</a></li>
-                                            <li><a href="login-register.html">Sign In</a></li>
+                                            <!-- <li><a href="compare.html">Compare Products</a></li> -->
+                                            <li><a href="my-account.html">Tài khoản của tôi</a></li>
+                                            <!-- <li><a href="wishlist.html">My Wish List</a></li> -->
+                                            <li><a href="<?= base_url('login') ?>">Đăng nhập</a></li>
                                         </ul>
                                     </li>
                                 </ul>
-                                <ul class="ht-cr-menu d-flex">
+                                <!-- <ul class="ht-cr-menu d-flex">
                                     <li><a href="#">EUR</a>
                                         <ul class="ht-dropdown width-20">
                                             <li><a href="#">USD</a></li>
@@ -52,7 +52,7 @@
                                                         alt="">English4</a></li>
                                         </ul>
                                     </li>
-                                </ul>
+                                </ul> -->
                             </div>
                         </div>
                     </div>
@@ -66,7 +66,7 @@
                         <!--Logo start-->
                         <div class="col-lg-3 col-md-3 col-6 order-lg-1 order-md-1 order-1">
                             <div class="logo">
-                                <a href="index.html"><img src="assets/images/logo.png" alt=""></a>
+                                <a href="<?= base_url() ?>"><img src="assets/images/logo.png" alt=""></a>
                             </div>
                         </div>
                         <!--Logo end-->
@@ -75,7 +75,7 @@
                         <div class="col-lg-6 col-md-6 col-12 order-lg-2 order-md-2 order-3 d-flex justify-content-center">
                             <nav class="main-menu">
                                 <ul>
-                                    <li><a href="index.html">Home</a>
+                                    <!-- <li><a href="index.html">Home</a>
                                         <ul class="sub-menu">
                                             <li><a href="index.html">Home One</a></li>
                                             <li><a href="index-2.html">Home Two</a></li>
@@ -84,41 +84,41 @@
                                             <li><a href="index-5.html">Home Five</a></li>
                                             <li><a href="index-6.html">Home Six</a></li>
                                         </ul>
-                                    </li>
-                                    <li><a href="shop.html">Shop</a>
+                                    </li> -->
+                                    <li><a href="shop.html">Danh mục sản phẩm</a>
                                         <ul class="mega-menu four-column">
-                                            <li><a href="#" class="item-link">Pages</a>
+                                            <li><a href="#" class="item-link">Dưỡng da</a>
                                                 <ul>
-                                                    <li><a href="compare.html">Compare</a></li>
-                                                    <li><a href="cart.html">Shopping Cart</a></li>
-                                                    <li><a href="checkout.html">Checkout</a></li>
-                                                    <li><a href="wishlist.html">Wishlist</a></li>
-                                                    <li><a href="my-account.html">My Account</a></li>
-                                                    <li><a href="login-register.html">Login Register</a></li>
-                                                    <li><a href="faq.html">Frequently Questions</a></li>
-                                                    <li><a href="404.html">Error 404</a></li>
+                                                    <li><a href="<?= base_url('product') ?>">Mặt nạ</a></li>
+                                                    <li><a href="<?= base_url('product') ?>">Nước cân bằng</a></li>
+                                                    <li><a href="<?= base_url('product') ?>">Xịt khoáng</a></li>
+                                                    <li><a href="<?= base_url('product') ?>">Sữa dưỡng</a></li>
+                                                    <li><a href="<?= base_url('product') ?>">Tinh chất dưỡng</a></li>
+                                                    <!-- <li><a href="login-register.html">Login Register</a></li> -->
+                                                    <!-- <li><a href="faq.html">Frequently Questions</a></li> -->
+                                                    <!-- <li><a href="404.html">Error 404</a></li> -->
                                                 </ul>
                                             </li>
-                                            <li><a href="#" class="item-link">Shop Layout</a>
+                                            <li><a href="#" class="item-link">Làm sạch</a>
                                                 <ul>
-                                                    <li><a href="shop.html">Shop</a></li>
-                                                    <li><a href="shop-three-column.html">Shop Three Column</a></li>
-                                                    <li><a href="shop-four-column.html">Shop Four Column</a></li>
-                                                    <li><a href="shop-right-sidebar.html">Shop Right Sidebar</a></li>
-                                                    <li><a href="shop-list-nosidebar.html">Shop List No Sidebar</a></li>
-                                                    <li><a href="shop-list-left-sidebar.html">Shop List Left Sidebar</a>
+                                                    <li><a href="shop.html">Sữa rửa mặt</a></li>
+                                                    <li><a href="shop-three-column.html">Sản phẩm tẩy trang</a></li>
+                                                    <li><a href="shop-four-column.html">Tẩy trang mắt và môi</a></li>
+                                                    <!-- <li><a href="shop-right-sidebar.html">Shop Right Sidebar</a></li> -->
+                                                    <!-- <li><a href="shop-list-nosidebar.html">Shop List No Sidebar</a></li> -->
+                                                    <!-- <li><a href="shop-list-left-sidebar.html">Shop List Left Sidebar</a> -->
                                                     </li>
-                                                    <li><a href="shop-list-right-sidebar.html">Shop List Right
-                                                            Sidebar</a></li>
+                                                    <!-- <li><a href="shop-list-right-sidebar.html">Shop List Right -->
+                                                            <!-- Sidebar</a></li> -->
                                                 </ul>
                                             </li>
-                                            <li><a href="#" class="item-link">Product Details</a>
+                                            <li><a href="#" class="item-link">Trang điểm nền</a>
                                                 <ul>
-                                                    <li><a href="single-product.html">Single Product</a></li>
-                                                    <li><a href="single-product-variable.html">Variable Product</a></li>
-                                                    <li><a href="single-product-affiliate.html">Affiliate Product</a>
+                                                    <li><a href="single-product.html">Phấn nước</a></li>
+                                                    <li><a href="single-product-variable.html">Kem nền</a></li>
+                                                    <li><a href="single-product-affiliate.html">Kem lót</a>
                                                     </li>
-                                                    <li><a href="single-product-group.html">Group Product</a></li>
+                                                    <!-- <li><a href="single-product-group.html">Group Product</a></li>
                                                     <li><a href="single-product-tabstyle-2.html">Product Left Tab</a>
                                                     </li>
                                                     <li><a href="single-product-tabstyle-3.html">Product Right Tab</a>
@@ -126,35 +126,33 @@
                                                     <li><a href="single-product-gallery-left.html">Product Gallery
                                                             Left</a></li>
                                                     <li><a href="single-product-gallery-right.html">Product Gallery
-                                                            Right</a></li>
+                                                            Right</a></li> -->
                                                 </ul>
                                             </li>
-                                            <li><a href="#" class="item-link">Product Details</a>
+                                            <li><a href="#" class="item-link">Chăm sóc cơ thể</a>
                                                 <ul>
-                                                    <li><a href="single-product-sticky-left.html">Product Sticky
-                                                            Left</a></li>
-                                                    <li><a href="single-product-sticky-right.html">Product Sticky
-                                                            Right</a></li>
-                                                    <li><a href="single-product-slider-box.html">Product Box Slider</a>
+                                                    <li><a href="single-product-sticky-left.html">Sữa tắm</a></li>
+                                                    <li><a href="single-product-sticky-right.html">Sữa dưỡng thể</a></li>
+                                                    <li><a href="single-product-slider-box.html">Chăm sóc tóc</a>
                                                     </li>
                                                 </ul>
                                             </li>
                                         </ul>
                                     </li>
-                                    <li><a href="blog.html">Blog</a>
+                                    <li><a href="blog.html">Blog làm đẹp</a>
                                         <ul class="sub-menu">
-                                            <li><a href="blog.html">Blog Three Column</a></li>
-                                            <li><a href="blog-two-column.html">Blog Two Column</a></li>
-                                            <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                                            <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
-                                            <li><a href="blog-details-gallery.html">Blog Details Gallery</a></li>
-                                            <li><a href="blog-details-audio.html">Blog Details Audio</a></li>
-                                            <li><a href="blog-details-video.html">Blog Details Video</a></li>
+                                            <li><a href="<?= base_url('blog') ?>">Bí Quyết Chống Nắng Bảo Vệ Da</a></li>
+                                            <li><a href="<?= base_url('blog') ?>">Bí Quyết Giúp Thanh Xuân Trở Lại</a></li>
+                                            <li><a href="<?= base_url('blog') ?>">Cách Chăm Sóc Da</a></li>
+                                            <li><a href="<?= base_url('blog') ?>">Tips Làm Đẹp Tự Nhiên</a></li>
+                                            <li><a href="<?= base_url('blog') ?>">Xu Hướng Trang Điểm</a></li>
+                                            <!-- <li><a href="blog-details-gallery.html">Blog Details Gallery</a></li> -->
+                                            <!-- <li><a href="blog-details-audio.html">Blog Details Audio</a></li> -->
+                                            <!-- <li><a href="blog-details-video.html">Blog Details Video</a></li> -->
                                         </ul>
                                     </li>
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li><a href="contact.html">Contact Us</a></li>
+                                    <li><a href="<?= base_url('about') ?>">Về chúng tôi</a></li>
+                                    <li><a href="<?= base_url('contact') ?>">Liên hệ</a></li>
                                 </ul>
                             </nav>
                         </div>

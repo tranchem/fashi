@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Tu extends Layout {
+class Contact extends Layout {
 
 	/**
 	 * Index Page for this controller.
@@ -20,7 +20,10 @@ class Tu extends Layout {
 	 */
 	public function index()
 	{
-        // echo 'tu';
-        $this->load->view('layout/index');
+		// $this->load->view('layout/index');
+		$this->_data['main_content'] = $this->load->view('contact/index', [], true);
+		// $this->load->view('layout/index', $this->_data);
+		$this->render();
+
 	}
 }
