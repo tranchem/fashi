@@ -25,14 +25,14 @@
                    <!-- Single Blog Start -->
                    <div class="blog col-lg-4 col-md-6 col-sm-6">
                         <div class="blog-inner mb-20">
-                            <div class="media"><a href="blog-details.html" class="image"><img src="assets/images/blog/blog1.png" alt=""></a></div>
+                            <div class="media"><a href="<?= base_url('blog/detail') ?>" class="image"><img src="assets/images/blog/blog1.png" alt=""></a></div>
                             <div class="content">
-                                <h3 class="title"><a href="blog-details.html">Cool boy with tattoo</a></h3>
+                                <h3 class="title"><a href="<?= base_url('blog/detail') ?>">Cool boy with tattoo</a></h3>
                                 <ul class="meta">
                                     <li><i class="fa fa-calendar"></i><span class="date-time"><span class="date">15</span><span class="separator">-</span><span class="month">Jan</span></span></li>
                                 </ul>
                                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat </p>
-                                <a class="readmore" href="blog-details.html">Read more</a>
+                                <a class="readmore" href="<?= base_url('blog/detail') ?>">Read more</a>
                             </div>
                         </div>
                     </div>
@@ -54,17 +54,17 @@
                                 "slidesToShow": 1
                                 }}
                                 ]'>
-                                <a href="blog-details.html" class="image"><img src="assets/images/blog/blog1.png" alt=""></a>
-                                <a href="blog-details.html" class="image"><img src="assets/images/blog/blog2.png" alt=""></a>
-                                <a href="blog-details.html" class="image"><img src="assets/images/blog/blog3.png" alt=""></a>
+                                <a href="<?= base_url('blog/detail') ?>" class="image"><img src="assets/images/blog/blog1.png" alt=""></a>
+                                <a href="<?= base_url('blog/detail') ?>" class="image"><img src="assets/images/blog/blog2.png" alt=""></a>
+                                <a href="<?= base_url('blog/detail') ?>" class="image"><img src="assets/images/blog/blog3.png" alt=""></a>
                             </div>
                             <div class="content">
-                                <h3 class="title"><a href="blog-details.html">Post with Gallery</a></h3>
+                                <h3 class="title"><a href="<?= base_url('blog/detail') ?>">Post with Gallery</a></h3>
                                 <ul class="meta">
                                     <li><i class="fa fa-calendar"></i><span class="date-time"><span class="date">03</span><span class="separator">-</span><span class="month">Apr</span></span></li>
                                 </ul>
                                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat </p>
-                                <a class="readmore" href="blog-details.html">Read more</a>
+                                <a class="readmore" href="<?= base_url('blog/detail') ?>">Read more</a>
                             </div>
                         </div>
                     </div>

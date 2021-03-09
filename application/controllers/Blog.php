@@ -26,4 +26,13 @@ class Blog extends Layout {
 		$this->render();
 
 	}
+
+	public function detail()
+	{
+		// $this->load->view('layout/index');
+		$this->_data['main_content'] = $this->load->view('blog/detail', [], true);
+		// $this->load->view('layout/index', $this->_data);
+		$this->render();
+
+	}
 }
