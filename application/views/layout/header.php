@@ -11,7 +11,7 @@
                                     <li><a href="#"><i class="fa fa-phone"></i>0963 273 254</a></li>
                                     <li><a href="#"><i class="fa fa-envelope-open-o"></i>thefacestore@gmail.com</a></li>
                                 </ul>
-                            </div>
+                            </div>  
                             <!--Links end-->
                             <!--Socail start-->
                             <div class="header-top-social">
@@ -30,7 +30,7 @@
                                     <li><a href="#"><i class="fa fa-user-circle-o"></i>Đăng nhập</a>
                                         <ul class="ht-dropdown right">
                                             <!-- <li><a href="compare.html">Compare Products</a></li> -->
-                                            <li><a href="my-account.html">Tài khoản của tôi</a></li>
+                                            <li><a href="<?= base_url('account') ?>">Tài khoản của tôi</a></li>
                                             <!-- <li><a href="wishlist.html">My Wish List</a></li> -->
                                             <li><a href="<?= base_url('login') ?>">Đăng nhập</a></li>
                                         </ul>
@@ -66,7 +66,7 @@
                         <!--Logo start-->
                         <div class="col-lg-3 col-md-3 col-6 order-lg-1 order-md-1 order-1">
                             <div class="logo">
-                                <a href="<?= base_url() ?>"><img src="assets/images/logo.png" alt=""></a>
+                                <a href="<?= base_url() ?>"><img src="<?= base_url('assets/images/logo.png') ?>" alt=""></a>
                             </div>
                         </div>
                         <!--Logo end-->
@@ -210,8 +210,8 @@
                                         <h5>Total : <span class="float-right">$46.79</span></h5>
                                     </div>
                                     <div class="cart-btn">
-                                        <a href="cart.html">View Cart</a>
-                                        <a href="checkout.html">checkout</a>
+                                        <a href="<?= base_url('checkout/cart') ?>">Giỏ hàng</a>
+                                        <a href="<?= base_url('checkout') ?>">Thanh toán</a>
                                     </div>
                                 </div>
                                 <!--Mini Cart Dropdown End-->
