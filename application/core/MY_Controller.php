@@ -23,13 +23,26 @@ class Layout extends CI_Controller {
 		// // $this->_data ['title'] = 'GetFly Managers';
 		// $this->_data ['user_info'] = $session_data;
 	}
+	public function BinhLuan($id){
+
+		$object = array(
+			'NoiDung' => $this->input->post('ten'),
+			'KichHoat' => 0,
+			'Ten' => $this->input->post('noidung'),
+			'MaSP' => $id,
+		);
+
+		$this->db->insert('b_cmt', $object);
+		redirect(base_url('product/detail/?id='.$id),'refresh');
+	}
+
 	public function render(){
 
 		$query = $this->db->get('b_dm');
 
 		$data['ten_dm'] = $query->result_array();
 
-	
+
 		$this->_data ['header'] = $this->load->view ( 'layout/header', $data, TRUE );
 		$this->_data ['footer'] = $this->load->view ( 'layout/footer', [ ], TRUE );
 
@@ -60,7 +73,7 @@ class Web_Controller extends REST_Controller {
 	}
 	public function accessDenied() {
 		$this->response ( array (
-				'message' => 'Access Denied'
+			'message' => 'Access Denied'
 		), 400 );
 	}
 }

@@ -32,10 +32,14 @@ class Product extends Layout {
 	}
 
 	public function detail($id='SP002')	
-	{
+	{	
+
 		$this->db->where('MaSp', $id);
 		$query = $this->db->get('b_dmsp');
+		$this->db->where('KichHoat', '1');
+		$query1 = $this->db->get('b_cmt');
 		$data['sp'] = $query->result_array();
+		$data['cmt'] = $query1->result_array();
 		// $this->load->view('layout/index');
 		$this->_data['main_content'] = $this->load->view('product/detail', $data, true);
 		// $this->load->view('layout/index', $this->_data);

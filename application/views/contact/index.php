@@ -53,37 +53,29 @@
                     <div class="col-lg-9 col-12">
                         <div class="contact-form-wrap">
                             <h3 class="contact-title">Nhập thông tin</h3>
-                            <form id="contact-form" action="http://hasthemes.com/file/mail.php" method="post">
+                            <form  action="./Contact_action/contact_action" method="post">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="contact-form-style mb-20">
-                                            <input name="con_name" placeholder="First Name*" type="text">
+                                            <input name="input_hoten" placeholder="Họ tên" type="text">
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="contact-form-style mb-20">
-                                            <input name="lastname" placeholder="Last Name*" type="text">
+                                            <input name="input_email" placeholder="Email" type="text">
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="contact-form-style mb-20">
-                                            <input name="con_email" placeholder="Email*" type="email">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="contact-form-style mb-20">
-                                            <input name="subject" placeholder="Subject*" type="text">
-                                        </div>
-                                    </div>
+                                    
                                     <div class="col-md-12">
                                         <div class="contact-form-style">
-                                            <textarea name="con_message" placeholder="Type your message here.."></textarea>
-                                            <button class="btn" type="submit"><span>Send message</span></button>
+                                            <textarea name="input_noidung" placeholder="Nội dung..."></textarea>
+                                            
+
                                         </div>
                                     </div>
+                                    <button class="btn" type="submit"><span>Gửi phản hồi</span></button>
                                 </div>
                             </form>
-                            <p class="form-messege"></p>
                         </div>
                     </div>
                 </div>
