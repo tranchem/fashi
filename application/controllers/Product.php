@@ -20,9 +20,13 @@ class Product extends Layout {
 	 */
 	public function index()
 	{
-		// $this->load->view('layout/index');
-		$this->_data['main_content'] = $this->load->view('product/index', [], true);
-		// $this->load->view('layout/index', $this->_data);
+		
+
+		$query = $this->db->get('b_dmsp');
+		$data['product_list'] = $query->result();
+
+
+		$this->_data['main_content'] = $this->load->view('product/index', $data, true);
 		$this->render();
 
 	}

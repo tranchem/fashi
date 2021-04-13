@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th4 13, 2021 lúc 08:11 AM
+-- Thời gian đã tạo: Th4 13, 2021 lúc 08:16 AM
 -- Phiên bản máy phục vụ: 10.4.17-MariaDB
 -- Phiên bản PHP: 8.0.0
 
@@ -152,6 +152,10 @@ CREATE TABLE `b_dmsp` (
   `DVT` char(8) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `SL` int(10) DEFAULT NULL,
   `Anh` text COLLATE utf8mb4_unicode_ci NOT NULL,
+  `Anh1` varchar(32) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `Anh2` varchar(32) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `Anh3` varchar(32) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `Anh4` varchar(32) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `id_dm` int(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
@@ -159,8 +163,8 @@ CREATE TABLE `b_dmsp` (
 -- Đang đổ dữ liệu cho bảng `b_dmsp`
 --
 
-INSERT INTO `b_dmsp` (`MaSP`, `TenSP`, `DonGia`, `MoTa`, `DVT`, `SL`, `Anh`, `id_dm`) VALUES
-('SP002', 'Sắt', 30000, '', 'kg', 5, '3CE5.jpg', NULL);
+INSERT INTO `b_dmsp` (`MaSP`, `TenSP`, `DonGia`, `MoTa`, `DVT`, `SL`, `Anh`, `Anh1`, `Anh2`, `Anh3`, `Anh4`, `id_dm`) VALUES
+('SP002', 'Sắt', 30000, '', 'kg', 5, '3CE5.jpg', NULL, NULL, NULL, NULL, NULL);
 
 -- --------------------------------------------------------
 
