@@ -6,10 +6,7 @@
                         
                         <div class="page-banner text-center">
                             <h1>Về chúng tôi</h1>
-                            <ul class="page-breadcrumb">
-                                <li><a href="index.html">Home</a></li>
-                                <li>About</li>
-                            </ul>
+                            
                         </div>
                         
                     </div>
@@ -26,7 +23,7 @@
                         <!--About Us Image Start-->
                         <div class="about-us-img-wrapper mb-30 mb-xs-15">
                             <div class="about-us-image img-full">
-                                <a href="#"><img src="assets/images/about/about-1.jpg" alt=""></a>
+                                <a href="#"><img src="assets/images/about/about.png" alt=""></a>
                             </div>
                         </div>
                         <!--About Us Image End-->
@@ -34,10 +31,10 @@
                     <div class="col-lg-6 col-12">
                         <!--About Us Content Start-->
                         <div class="about-us-content">
-                            <h2>Our company</h2>
-                            <p class="mb-20">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p>
-                            <p class="mb-20">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo volup.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu nisi ac mi malesuada vestibulum. Phasellus tempor nunc eleifend cursus molestie. Mauris lectus arcu, pellentesque at sodales sit amet, condimentum id nunc. Donec ornare mattis suscipit. Praesent fermentum accumsan vulputate.</p>
+                            <h2>Giới thiệu</h2>
+                            <p class="mb-20">Với đội ngũ nhân viên đã có nhiều kinh nghiệm trong việc tư vấn mỹ phẩm, chúng tôi mang đến cho bạn những trải nghiệm tuyệt vời nhất khi đến với shop. </p>
+                            <p class="mb-20">Không chỉ chuyên cung cấp những loại mỹ phẩm với chất lượng đảm bảo, chúng tôi còn có những dịch vụ đã được cải thiện để tăng thêm phần hài lòng và hiểu nhau hơn giữa khách hàng và nhà cung cấp như blog làm đẹp, những mẹo trong việc trang điểm ,....</p>
+                            <p>Sự hài lòng của quý khách sẽ là nguồn cảm hứng và là nguồn động lực rất lớn đối với chúng tôi !</p>
                             <a href="#" class="btn">read more</a>
                         </div>
                         <!--About Us Content End-->
@@ -53,8 +50,8 @@
                 <div class="row">
                     <div class="col">
                         <div class="section-title text-center mb-40 mb-xs-20">
-                            <h2>our <span>exclusive</span> team</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt.</p>
+                            <h2> <span>Nhà sáng lập</span> </h2>
+                          
                         </div>
                     </div>
                 </div>
@@ -63,15 +60,15 @@
                         <!--Single Team Start-->
                         <div class="single-team mb-30">
                             <div class="team-image img-full">
-                                <a href="#"><img src="assets/images/team/team-1.jpg" alt=""></a>
+                                <a href="#"><img style="height:550px " src="assets/images/team/tien1.png" alt=""></a>
                             </div>
                             <div class="team-content">
                                 <div class="team-hover-info">
-                                    <h2><a href="#">Marcos Alonso</a></h2>
+                                    <h2><a href="#">Âu Ngọc Tiền</a></h2>
                                     <ul class="team-social">
                                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                         <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="https://www.facebook.com/tien.ca.79"><i class="fa fa-facebook"></i></a></li>
                                         <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                                     </ul>
                                 </div>
@@ -83,15 +80,15 @@
                         <!--Single Team Start-->
                         <div class="single-team mb-30">
                             <div class="team-image img-full">
-                                <a href="#"><img src="assets/images/team/team-2.jpg" alt=""></a>
+                                <a href="#"><img  src="assets/images/team/viet2.png" alt=""></a>
                             </div>
                             <div class="team-content">
                                 <div class="team-hover-info">
-                                    <h2><a href="#">Isaac Newton</a></h2>
+                                    <h2><a href="#">Mai Đức Việt</a></h2>
                                     <ul class="team-social">
                                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                         <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="https://www.facebook.com/vietlegendvip/"><i class="fa fa-facebook"></i></a></li>
                                         <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                                     </ul>
                                 </div>
@@ -103,15 +100,76 @@
                         <!--Single Team Start-->
                         <div class="single-team mb-30">
                             <div class="team-image img-full">
-                                <a href="#"><img src="assets/images/team/team-3.jpg" alt=""></a>
+                                <a href="#"><img src="assets/images/team/tu1.jpg" alt=""></a>
                             </div>
                             <div class="team-content">
                                 <div class="team-hover-info">
-                                    <h2><a href="#">Charlotte Taylor</a></h2>
+                                    <h2><a href="#">Trần Văn Tú</a></h2>
                                     <ul class="team-social">
                                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                         <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="https://www.facebook.com/tran.tu.98229241"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Single Team End-->
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <!--Single Team Start-->
+                        <div class="single-team mb-30">
+                            <div class="team-image img-full">
+                                <a href="#"><img style="height: 550px" src="assets/images/team/quynh2.jpg" alt=""></a>
+                            </div>
+                            <div class="team-content">
+                                <div class="team-hover-info">
+                                    <h2><a href="#">Nguyễn Ngọc Quỳnh</a></h2>
+                                    <ul class="team-social">
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                        <li><a href="https://www.facebook.com/ngocquynhng1401"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Single Team End-->
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <!--Single Team Start-->
+                        <div class="single-team mb-30">
+                            <div class="team-image img-full">
+                                <a href="#"><img src="assets/images/team/linh1.jpg" alt=""></a>
+                            </div>
+                            <div class="team-content">
+                                <div class="team-hover-info">
+                                    <h2><a href="#">Nguyễn Thùy Linh</a></h2>
+                                    <ul class="team-social">
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                        <li><a href="https://www.facebook.com/liinhihi"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Single Team End-->
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <!--Single Team Start-->
+                        <div class="single-team mb-30">
+                            <div class="team-image img-full">
+                                <a href="#"><img style="height: 550px" src="assets/images/team/trung3.jpg" alt=""></a>
+                            </div>
+                            <div class="team-content">
+                                <div class="team-hover-info">
+                                    <h2><a href="#">Trần Việt Trung</a></h2>
+                                    <ul class="team-social">
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                        <li><a href="https://www.facebook.com/tran.trung.3382"><i class="fa fa-facebook"></i></a></li>
                                         <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                                     </ul>
                                 </div>
@@ -144,12 +202,10 @@
                     <div class="col-12">
                         <!--Single Testimonial Area Start-->
                         <div class="single-testimonial-area">
-                            <div class="testimonial-image">
-                                <img src="assets/images/author/test-author-1.png" alt="">
-                            </div>
+                         
                             <div class="testimonial-content">
-                                <p class="author-desc">  All Perfect !! I have three sites with magento , this theme is the best !! Excellent support , advice theme installation package , sorry for English, are Italian but I had no problem !! Thank you ! ..</p>
-                                <p class="testimonial-author">Alva Ono</p>
+                                <p class="author-desc"> Rất hài lòng với thái độ nhân viên ở shop, luôn tư vấn rất nhiệt tình với khách hàng ! ..</p>
+                                <p class="testimonial-author">Ngân Phạm</p>
                             </div>
                         </div>
                         <!--Single Testimonial Area End-->
@@ -157,12 +213,10 @@
                     <div class="col-12">
                         <!--Single Testimonial Area Start-->
                         <div class="single-testimonial-area">
-                            <div class="testimonial-image">
-                                <img src="assets/images/author/test-author-2.png" alt="">
-                            </div>
+                            
                             <div class="testimonial-content">
-                                <p class="author-desc">Perfect Themes and the best of all that you have many options to choose! Best Support team ever!Very fast responding and experts on their fields! Thank you very much! ..</p>
-                                <p class="testimonial-author">Amber Laha</p>
+                                <p class="author-desc"> Chất lượng sản phẩm ở đây thật sự rất tốt , đã là khách hàng rất quen thuộc và sẽ ủng hộ shop dài dài !! <3 </p>
+                                <p class="testimonial-author">Nguyễn Hoài</p>
                             </div>
                         </div>
                         <!--Single Testimonial Area End-->
@@ -170,41 +224,15 @@
                     <div class="col-12">
                         <!--Single Testimonial Area Start-->
                         <div class="single-testimonial-area">
-                            <div class="testimonial-image">
-                                <img src="assets/images/author/test-author-3.png" alt="">
-                            </div>
+                            
                             <div class="testimonial-content">
-                                <p class="author-desc"> Code, template and others are very good. The support has served me immediately and solved my problems when I need help. Are to be congratulated. Att Renan Andrade ..</p>
-                                <p class="testimonial-author">Dewey Tetzlaff</p>
+                                <p class="author-desc"> Nguồn gốc của sản phẩm rất rõ ràng và yên tâm về chất lượng , chúc shop sẽ ngày càng lớn mạnh  </p>
+                                <p class="testimonial-author">Trịnh Nga</p>
                             </div>
                         </div>
                         <!--Single Testimonial Area End-->
                     </div>
-                    <div class="col-12">
-                        <!--Single Testimonial Area Start-->
-                        <div class="single-testimonial-area">
-                            <div class="testimonial-image">
-                                <img src="assets/images/author/test-author-4.png" alt="">
-                            </div>
-                            <div class="testimonial-content">
-                                <p class="author-desc">  All Perfect !! I have three sites with magento , this theme is the best !! Excellent support , advice theme installation package , sorry for English, are Italian but I had no problem !! Thank you ! ..</p>
-                                <p class="testimonial-author">Lavina Wilderman</p>
-                            </div>
-                        </div>
-                        <!--Single Testimonial Area End-->
-                    </div>
-                    <div class="col-12">
-                        <!--Single Testimonial Area Start-->
-                        <div class="single-testimonial-area">
-                            <div class="testimonial-image">
-                                <img src="assets/images/author/test-author-5.png" alt="">
-                            </div>
-                            <div class="testimonial-content">
-                                <p class="author-desc">  All Perfect !! I have three sites with magento , this theme is the best !! Excellent support , advice theme installation package , sorry for English, are Italian but I had no problem !! Thank you ! ..</p>
-                                <p class="testimonial-author">Stefano</p>
-                            </div>
-                        </div>
-                        <!--Single Testimonial Area End-->
+                  
                     </div>
                 </div>
             </div>
