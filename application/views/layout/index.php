@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 ?>
 
 <!doctype html>
@@ -7,6 +7,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 <!-- Mirrored from demo.hasthemes.com/theface-preview/theface-v3/index-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 01 Mar 2021 11:21:48 GMT -->
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -33,7 +34,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <?= $this->_data['header']; ?>
         <?= $this->_data['main_content']; ?>
         <?= $this->_data['footer']; ?>
-      
+
 
         <!-- Modal Area Strat -->
         <div class="modal fade quick-view-modal-container" id="quick-view-modal-container" tabindex="-1" role="dialog" aria-hidden="true">
@@ -84,7 +85,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                             "arrows": false,
                                             "prevArrow": {"buttonClass": "slick-btn slick-prev", "iconClass": "fa fa-angle-left" },
                                             "nextArrow": {"buttonClass": "slick-btn slick-next", "iconClass": "fa fa-angle-right" }
-                                            }' data-slick-responsive= '[
+                                            }' data-slick-responsive='[
                                             {"breakpoint":991, "settings": {
                                                 "slidesToShow": 3
                                             }},
@@ -94,7 +95,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                             {"breakpoint":479, "settings": {
                                                 "slidesToShow": 2
                                             }}
-                                        ]'>										
+                                        ]'>
                                             <div class="sm-image"><img src="assets/images/product/small-product/s-product-1.jpg" alt="product image thumb"></div>
                                             <div class="sm-image"><img src="assets/images/product/small-product/s-product-2.jpg" alt="product image thumb"></div>
                                             <div class="sm-image"><img src="assets/images/product/small-product/s-product-3.jpg" alt="product image thumb"></div>
@@ -106,7 +107,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 </div>
                                 <div class="col-xl-7 col-lg-6 col-md-6">
                                     <!-- product detail content -->
-                                    
+
                                     <!--Product Details Content Start-->
                                     <div class="product-details-content">
                                         <!--Product Nav Start-->
@@ -140,17 +141,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                                     <button class="product-add-btn" data-text="add to cart">add to cart</button>
                                                 </div>
                                             </form>
-                                    </div>
+                                        </div>
                                         <div class="wishlist-compare-btn">
                                             <a href="#" class="wishlist-btn mb-md-10 mb-sm-10">Add to Wishlist</a>
                                             <a href="#" class="add-compare">Compare</a>
                                         </div>
                                         <div class="product-meta">
                                             <span class="posted-in">
-                                                    Categories: 
-                                                    <a href="#">Accessories</a>,
-                                                    <a href="#">Electronics</a>
-                                                </span>
+                                                Categories:
+                                                <a href="#">Accessories</a>,
+                                                <a href="#">Electronics</a>
+                                            </span>
                                         </div>
                                         <div class="single-product-sharing">
                                             <h3>Share this product</h3>
@@ -165,14 +166,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                         </div>
                                     </div>
                                     <!--Product Details Content End-->
-                                    
+
                                     <!-- End of product detail content -->
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-    
+
             </div>
         </div>
         <!-- Modal Area End -->
@@ -188,9 +189,76 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <script src="<?= base_url('assets/js/plugins.js') ?>"></script>
     <script src="<?= base_url('assets/js/main.js') ?>"></script>
 
+    <script>
+        $(document).ready(function() {
+            $('.add_cart').click(function() {
+                // alert('Hello');
+                var id = $(this).data("masp");
+                var name = $(this).data("tensp");
+                var price = $(this).data("dongia");
+                var qty = $(this).data("qty");
+                // var product_name = $(this).data("product_name");
+                // var product_name = $(this).data("product_name");
+                // var product_id    = $(this).data("productid");
+                // console.log('gio hang', masp, tensp, dongia, anh);
+                $.ajax({
+                    url: "<?php echo base_url(); ?>shopping_cart/add",
+                    method: "POST",
+                    data: {
+                        id,
+                        name,
+                        price,
+                        qty
+                    },
+                    success: function(data) {
+                        alert("Product Added into Cart");
+                        $('#cart_details').html(data);
+                        // $('#' + masp).val('');
+                    }
+                });
+            })
+
+            $('#cart_details').load("<?php echo base_url(); ?>shopping_cart/load");
+
+            $(document).on('click', '.remove_inventory', function() {
+                var row_id = $(this).attr("id");
+                if (confirm("Are you sure you want to remove this?")) {
+                    $.ajax({
+                        url: "<?php echo base_url(); ?>shopping_cart/remove",
+                        method: "POST",
+                        data: {
+                            row_id: row_id
+                        },
+                        success: function(data) {
+                            alert("Product removed from Cart");
+                            $('#cart_details').html(data);
+                        }
+                    });
+                } else {
+                    return false;
+                }
+            });
+
+            $(document).on('click', '#clear_cart', function() {
+                if (confirm("Are you sure you want to clear cart?")) {
+                    $.ajax({
+                        url: "<?php echo base_url(); ?>shopping_cart/clear",
+                        success: function(data) {
+                            alert("Your cart has been clear...");
+                            $('#cart_details').html(data);
+                        }
+                    });
+                } else {
+                    return false;
+                }
+            });
+
+        })
+    </script>
+
 </body>
 
 
 <!-- Mirrored from demo.hasthemes.com/theface-preview/theface-v3/index-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 01 Mar 2021 11:21:49 GMT -->
-</html>
 
+</html>

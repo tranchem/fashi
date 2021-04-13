@@ -6,7 +6,7 @@
                  <div class="row">
                      <div class="col-12">
                          <div class="shop-banner-title">
-                             <h2>Shop</h2>
+                             <h2><?= $category[0]['ten_dm'] ?></h2>
                          </div>
                      </div>
                  </div>
@@ -14,7 +14,7 @@
                      <div class="col-12">
                          <!-- Grid & List View Start -->
                          <div class="shop-topbar-wrapper d-md-flex justify-content-md-between align-items-center">
-                             <div class="grid-list-option">
+                             <!-- <div class="grid-list-option">
                                  <ul class="nav">
                                      <li>
                                          <a class="active show" data-toggle="tab" href="#grid"><i class="fa fa-th"></i></a>
@@ -23,9 +23,9 @@
                                          <a data-toggle="tab" href="#list" class=""><i class="fa fa-th-list"></i></a>
                                      </li>
                                  </ul>
-                             </div>
+                             </div> -->
                              <!--Toolbar Short Area Start-->
-                             <div class="toolbar-short-area d-md-flex align-items-center">
+                             <!-- <div class="toolbar-short-area d-md-flex align-items-center">
                                  <div class="toolbar-shorter ">
                                      <label>Sort By:</label>
                                      <select class="wide">
@@ -47,7 +47,7 @@
                                      <span>per page</span>
                                  </div>
 
-                             </div>
+                             </div> -->
                              <!--Toolbar Short Area End-->
                          </div>
                          <!-- Grid & List View End -->
@@ -71,7 +71,11 @@
                                                              <!-- <span class="descount-sticker">-10%</span> -->
                                                              <!-- <span class="sticker">New</span> -->
                                                              <div class="product-action d-flex justify-content-between">
-                                                                 <a class="product-btn" href="#">Thêm vào giỏ</a>
+                                                                 <a class="product-btn add_cart" href="#" data-masp="<?= $item->MaSP ?>" data-tensp="<?= $item->TenSP ?>"
+                                                                    data-dongia="<?= $item->DonGia ?>" data-qty="1"
+                                                                 >
+                                                                     Thêm vào giỏ
+                                                                 </a>
                                                                  <ul class="d-flex">
                                                                      <li><a href="#quick-view-modal-container" data-toggle="modal" title="Quick View"><i class="fa fa-eye"></i></a></li>
                                                                      <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
@@ -102,7 +106,7 @@
                      </div>
                  </div>
                  <div class="row mb-30 mb-sm-0 mb-xs-0">
-                     <div class="col">
+                     <!-- <div class="col">
                          <ul class="page-pagination">
                              <li><a href="#"><i class="fa fa-angle-left"></i></a></li>
                              <li class="active"><a href="#">01</a></li>
@@ -110,7 +114,7 @@
                              <li><a href="#">03</a></li>
                              <li><a href="#"><i class="fa fa-angle-right"></i></a></li>
                          </ul>
-                     </div>
+                     </div> -->
                  </div>
              </div>
          </div>

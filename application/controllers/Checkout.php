@@ -35,4 +35,38 @@ class Checkout extends Layout {
 		$this->render();
 
 	}
+
+	public function add()
+	{
+		$ten = $this->input->post('ten');
+		$ho = $this->input->post('ho');
+		$email = $this->input->post('email');
+		$sdt = $this->input->post('sdt');
+		$dia_chi = $this->input->post('dia_chi');
+
+
+		$data = array(
+			'ten' => $ten,
+			'ho' => $ho,
+			'email' => $email,
+			'sdt' => $sdt,
+			'dia_chi' => $dia_chi,
+			'TongTien' => $this->cart->total(),
+			'Ngay' => date("Y/m/d")
+		);
+		// var_dump($data);
+		// var_dump($this->cart->contents());
+		$this->db->insert('b_hdb', $data);
+		$insert_id = $this->db->insert_id();
+
+		$data_chi_tiet = array();
+		if($this->cart->contents()) {
+			foreach($this->cart->contents() as $item) {
+				$data_chi_tiet[] = array(
+					'SoHDB' => $insert_id,
+					'MaSP' => $item['']
+				);
+			}
+		}
+	}
 }

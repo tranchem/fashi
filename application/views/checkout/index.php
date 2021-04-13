@@ -1,115 +1,85 @@
 <!-- Page Banner Section Start -->
 <div class="page-banner-section section bg-gray">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        
-                        <div class="page-banner text-center">
-                            <h1>Giỏ hàng</h1>
-                            <ul class="page-breadcrumb">
-                                <li><a href="index.html">Home</a></li>
-                                <li>Checkout</li>
-                            </ul>
-                        </div>
-                        
-                    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+
+                <div class="page-banner text-center">
+                    <h1>Giỏ hàng</h1>
+                    <ul class="page-breadcrumb">
+                        <li><a href="index.html">Home</a></li>
+                        <li>Checkout</li>
+                    </ul>
                 </div>
+
             </div>
         </div>
-        <!-- Page Banner Section End -->
+    </div>
+</div>
+<!-- Page Banner Section End -->
 
-        <!--Checkout section start-->
-        <div class="checkout-section section pt-100 pt-lg-80 pt-md-70 pt-sm-60 pt-xs-50  pb-70 pb-lg-50 pb-md-40 pb-sm-30 pb-xs-20">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">    
-                            
-                        <!-- Checkout Form Start-->
-                        <form action="#" class="checkout-form">
-                        <div class="row row-40">
+<!--Checkout section start-->
+<div class="checkout-section section pt-100 pt-lg-80 pt-md-70 pt-sm-60 pt-xs-50  pb-70 pb-lg-50 pb-md-40 pb-sm-30 pb-xs-20">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
 
-                            <div class="col-lg-7">
+                <!-- Checkout Form Start-->
+                <form method="POST" action="<?= base_url('checkout/add') ?>" class="checkout-form">
+                    <div class="row row-40">
 
-                                <!-- Billing Address -->
-                                <div id="billing-form" class="mb-10">
-                                    <h4 class="checkout-title">Billing Address</h4>
+                        <div class="col-lg-7">
 
-                                    <div class="row">
+                            <!-- Billing Address -->
+                            <div id="billing-form" class="mb-10">
+                                <h4 class="checkout-title">Billing Address</h4>
 
-                                        <div class="col-md-6 col-12 mb-20">
-                                            <label>First Name*</label>
-                                            <input type="text" placeholder="First Name">
-                                        </div>
+                                <div class="row">
 
-                                        <div class="col-md-6 col-12 mb-20">
-                                            <label>Last Name*</label>
-                                            <input type="text" placeholder="Last Name">
-                                        </div>
+                                    <div class="col-md-6 col-12 mb-20">
+                                        <label>First Name*</label>
+                                        <input type="text" placeholder="First Name" name="ten">
+                                    </div>
 
-                                        <div class="col-md-6 col-12 mb-20">
-                                            <label>Email Address*</label>
-                                            <input type="email" placeholder="Email Address">
-                                        </div>
+                                    <div class="col-md-6 col-12 mb-20">
+                                        <label>Last Name*</label>
+                                        <input type="text" placeholder="Last Name" name="ho">
+                                    </div>
 
-                                        <div class="col-md-6 col-12 mb-20">
-                                            <label>Phone no*</label>
-                                            <input type="text" placeholder="Phone number">
-                                        </div>
+                                    <div class="col-md-6 col-12 mb-20">
+                                        <label>Email Address*</label>
+                                        <input type="email" placeholder="Email Address" name="email">
+                                    </div>
 
-                                        <div class="col-12 mb-20">
-                                            <label>Company Name</label>
-                                            <input type="text" placeholder="Company Name">
-                                        </div>
+                                    <div class="col-md-6 col-12 mb-20">
+                                        <label>Phone no*</label>
+                                        <input type="text" placeholder="Phone number" name="sdt">
+                                    </div>
+                                    <div class="col-12 mb-20">
+                                        <label>Address*</label>
+                                        <input type="text" placeholder="Address line 1" name="dia_chi">
+                                        <input type="text" placeholder="Address line 2">
+                                    </div>
 
-                                        <div class="col-12 mb-20">
-                                            <label>Address*</label>
-                                            <input type="text" placeholder="Address line 1">
-                                            <input type="text" placeholder="Address line 2">
-                                        </div>
 
-                                        <div class="col-md-6 col-12 mb-20">
-                                            <label>Country*</label>
-                                            <select class="nice-select">
-                                                    <option>Bangladesh</option>
-                                                    <option>China</option>
-                                                    <option>country</option>
-                                                    <option>India</option>
-                                                    <option>Japan</option>
-                                            </select>
-                                        </div>
 
-                                        <div class="col-md-6 col-12 mb-20">
-                                            <label>Town/City*</label>
-                                            <input type="text" placeholder="Town/City">
-                                        </div>
-
-                                        <div class="col-md-6 col-12 mb-20">
-                                            <label>State*</label>
-                                            <input type="text" placeholder="State">
-                                        </div>
-
-                                        <div class="col-md-6 col-12 mb-20">
-                                            <label>Zip Code*</label>
-                                            <input type="text" placeholder="Zip Code">
-                                        </div>
-
-                                        <div class="col-12 mb-20">
-                                            <div class="check-box">
+                                    <div class="col-12 mb-20">
+                                        <!-- <div class="check-box">
                                                 <input type="checkbox" id="create_account">
                                                 <label for="create_account">Create an Acount?</label>
                                             </div>
                                             <div class="check-box">
                                                 <input type="checkbox" id="shiping_address" data-shipping>
                                                 <label for="shiping_address">Ship to Different Address</label>
-                                            </div>
-                                        </div>
-
+                                            </div> -->
+                                        <button type="submit" class="btn float-right">Mua hàng</button>
                                     </div>
-
                                 </div>
 
-                                <!-- Shipping Address -->
-                                <div id="shipping-form">
+                            </div>
+
+                            <!-- Shipping Address -->
+                            <!-- <div id="shipping-form">
                                     <h4 class="checkout-title">Shipping Address</h4>
 
                                     <div class="row">
@@ -173,40 +143,39 @@
 
                                     </div>
 
-                                </div>
+                                </div> -->
 
-                            </div>
+                        </div>
 
-                            <div class="col-lg-5">
-                                <div class="row">
+                        <div class="col-lg-5">
+                            <div class="row">
 
-                                    <!-- Cart Total -->
-                                    <div class="col-12 mb-60">
+                                <!-- Cart Total -->
+                                <div class="col-12 mb-60">
 
-                                        <h4 class="checkout-title">Cart Total</h4>
+                                    <h4 class="checkout-title">Cart Total</h4>
 
-                                        <div class="checkout-cart-total">
+                                    <div class="checkout-cart-total">
 
-                                            <h4>Product <span>Total</span></h4>
+                                        <h4>Product <span>Total</span></h4>
 
-                                            <ul>
-                                                <li>Teritory Quentily X 01 <span>$35.00</span></li>
-                                                <li>Adurite Silocone X 02 <span>$59.00</span></li>
-                                                <li>Baizidale Momone X 01 <span>$78.00</span></li>
-                                                <li>Makorone Cicile X 01 <span>$65.00</span></li>
-                                            </ul>
+                                        <ul>
+                                            <?php foreach ($this->cart->contents() as $items) { ?>
+                                                <li><?= $items['name'] ?> X <?= $items['qty'] ?> <span><?= number_format($items['price']) ?></span></li>
+                                            <?php } ?> 
+                                        </ul>
 
-                                            <p>Sub Total <span>$296.00</span></p>
-                                            <p>Shipping Fee <span>$00.00</span></p>
+                                        <p>Sub Total <span><?= number_format($this->cart->total()) ?></span></p>
+                                        <p>Shipping Fee <span>00.00</span></p>
 
-                                            <h4>Grand Total <span>$296.00</span></h4>
-
-                                        </div>
+                                        <h4>Grand Total <span><?= number_format($this->cart->total()) ?> VND</span></h4>
 
                                     </div>
 
-                                    <!-- Payment Method -->
-                                    <!-- <div class="col-12 mb-30">
+                                </div>
+
+                                <!-- Payment Method -->
+                                <!-- <div class="col-12 mb-30">
 
                                         <h4 class="checkout-title">Payment Method</h4>
 
@@ -253,32 +222,31 @@
 
                                     </div> -->
 
-                                </div>
                             </div>
-
                         </div>
-                        </form> 
-                        
+
                     </div>
-                </div>            
+                </form>
+
             </div>
         </div>
-        <!--Checkout section end-->
+    </div>
+</div>
+<!--Checkout section end-->
 
-        <!--Brand section start-->
-        <div
-            class="brand-section section border-top pt-90 pt-lg-70 pt-md-65 pt-sm-55 pt-xs-40 pb-100 pb-lg-80 pb-md-70 pb-sm-60 pb-xs-50">
-            <div class="container">
-                <div class="row">
+<!--Brand section start-->
+<div class="brand-section section border-top pt-90 pt-lg-70 pt-md-65 pt-sm-55 pt-xs-40 pb-100 pb-lg-80 pb-md-70 pb-sm-60 pb-xs-50">
+    <div class="container">
+        <div class="row">
 
-                    <!--Brand Slider start-->
-                    <div class="tf-element-carousel section" data-slick-options='{
+            <!--Brand Slider start-->
+            <div class="tf-element-carousel section" data-slick-options='{
                         "slidesToShow": 5,
                         "slidesToScroll": 1,
                         "infinite": true,
                         "arrows": false,
                         "autoplay": true
-                        }'  data-slick-responsive='[
+                        }' data-slick-responsive='[
                         {"breakpoint":1199, "settings": {
                         "slidesToShow": 4
                         }},
@@ -292,15 +260,15 @@
                         "slidesToShow": 1
                         }}
                         ]'>
-                        <div class="brand col"><a href="#"><img src="assets/images/brands/brand-1.png" alt=""></a></div>
-                        <div class="brand col"><a href="#"><img src="assets/images/brands/brand-2.png" alt=""></a></div>
-                        <div class="brand col"><a href="#"><img src="assets/images/brands/brand-3.png" alt=""></a></div>
-                        <div class="brand col"><a href="#"><img src="assets/images/brands/brand-4.png" alt=""></a></div>
-                        <div class="brand col"><a href="#"><img src="assets/images/brands/brand-5.png" alt=""></a></div>
-                    </div>
-                    <!--Brand Slider end-->
-
-                </div>
+                <div class="brand col"><a href="#"><img src="assets/images/brands/brand-1.png" alt=""></a></div>
+                <div class="brand col"><a href="#"><img src="assets/images/brands/brand-2.png" alt=""></a></div>
+                <div class="brand col"><a href="#"><img src="assets/images/brands/brand-3.png" alt=""></a></div>
+                <div class="brand col"><a href="#"><img src="assets/images/brands/brand-4.png" alt=""></a></div>
+                <div class="brand col"><a href="#"><img src="assets/images/brands/brand-5.png" alt=""></a></div>
             </div>
+            <!--Brand Slider end-->
+
         </div>
-        <!--Brand section end-->
+    </div>
+</div>
+<!--Brand section end-->

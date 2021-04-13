@@ -20,11 +20,13 @@ class Product extends Layout {
 	 */
 	public function index()
 	{
-		
-
+		$id_dm = $this->input->get('id_dm');
+		$this->db->where('id_dm', $id_dm);
 		$query = $this->db->get('b_dmsp');
 		$data['product_list'] = $query->result();
 
+		$query_dm = $this->db->get_where('b_dm', array('id_dm' => $id_dm));
+		$data['category'] = $query_dm->result_array();
 
 		$this->_data['main_content'] = $this->load->view('product/index', $data, true);
 		$this->render();
