@@ -2,6 +2,8 @@
 defined ( 'BASEPATH' ) or exit ( 'No direct script access allowed' );
 require APPPATH . '/libraries/REST_Controller.php';
 class Layout extends CI_Controller {
+
+
 	function __construct() {
 		parent::__construct ();
 		// $session_data = $this->session->userdata ( 'logged_in' );
@@ -21,8 +23,14 @@ class Layout extends CI_Controller {
 		// // $this->_data ['title'] = 'GetFly Managers';
 		// $this->_data ['user_info'] = $session_data;
 	}
-	public function render() {
-		$this->_data ['header'] = $this->load->view ( 'layout/header', [ ], TRUE );
+	public function render(){
+
+		$query = $this->db->get('b_dm');
+
+		$data['ten_dm'] = $query->result_array();
+
+	
+		$this->_data ['header'] = $this->load->view ( 'layout/header', $data, TRUE );
 		$this->_data ['footer'] = $this->load->view ( 'layout/footer', [ ], TRUE );
 
 		$this->load->view ( 'layout/index', $this->_data );
@@ -110,4 +118,6 @@ class Api_Controller extends REST_Controller {
 // 			$this->response(['message' => 'IP Not accepted'], 403);
 // 		}
 	}
+
+
 }

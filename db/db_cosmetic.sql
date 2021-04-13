@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th4 13, 2021 lúc 05:56 AM
+-- Thời gian đã tạo: Th4 13, 2021 lúc 08:11 AM
 -- Phiên bản máy phục vụ: 10.4.17-MariaDB
 -- Phiên bản PHP: 8.0.0
 
@@ -117,6 +117,30 @@ INSERT INTO `b_cthdn` (`SoHDN`, `MaSP`, `SoLuong`, `DonGia`, `CKTT`, `CKTM`, `Th
 -- --------------------------------------------------------
 
 --
+-- Cấu trúc bảng cho bảng `b_dm`
+--
+
+CREATE TABLE `b_dm` (
+  `id_dm` int(11) NOT NULL,
+  `ten_dm` varchar(64) COLLATE utf8mb4_unicode_ci DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Đang đổ dữ liệu cho bảng `b_dm`
+--
+
+INSERT INTO `b_dm` (`id_dm`, `ten_dm`) VALUES
+(1, 'Mặt nạ'),
+(3, 'Xịt khoáng'),
+(4, 'Sửa rửa mặt'),
+(5, 'Sản phẩm tẩy trang'),
+(6, 'Phấn nước'),
+(7, 'Kem nền'),
+(8, 'Son môi');
+
+-- --------------------------------------------------------
+
+--
 -- Cấu trúc bảng cho bảng `b_dmsp`
 --
 
@@ -127,15 +151,16 @@ CREATE TABLE `b_dmsp` (
   `MoTa` text COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `DVT` char(8) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `SL` int(10) DEFAULT NULL,
-  `Anh` text COLLATE utf8mb4_unicode_ci DEFAULT NULL
+  `Anh` text COLLATE utf8mb4_unicode_ci NOT NULL,
+  `id_dm` int(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Đang đổ dữ liệu cho bảng `b_dmsp`
 --
 
-INSERT INTO `b_dmsp` (`MaSP`, `TenSP`, `DonGia`, `MoTa`, `DVT`, `SL`, `Anh`) VALUES
-('SP002', 'Sắt', 30000, '', 'kg', 5, '3CE5.jpg');
+INSERT INTO `b_dmsp` (`MaSP`, `TenSP`, `DonGia`, `MoTa`, `DVT`, `SL`, `Anh`, `id_dm`) VALUES
+('SP002', 'Sắt', 30000, '', 'kg', 5, '3CE5.jpg', NULL);
 
 -- --------------------------------------------------------
 
@@ -199,6 +224,27 @@ CREATE TABLE `b_kh` (
 
 INSERT INTO `b_kh` (`MaKH`, `TenKH`, `GioiTinh`, `SDT`, `Email`) VALUES
 ('KH001', 'Nguyễn Thùy Linh', 'Nữ', '0123456789', 'thuylinh@gmail.com');
+
+-- --------------------------------------------------------
+
+--
+-- Cấu trúc bảng cho bảng `b_loaidm`
+--
+
+CREATE TABLE `b_loaidm` (
+  `id_loadm` int(11) NOT NULL,
+  `ten_loaidm` varchar(32) COLLATE utf8mb4_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Đang đổ dữ liệu cho bảng `b_loaidm`
+--
+
+INSERT INTO `b_loaidm` (`id_loadm`, `ten_loaidm`) VALUES
+(1, 'loai1'),
+(2, 'loai2'),
+(3, 'loai3'),
+(4, 'loai4');
 
 -- --------------------------------------------------------
 
@@ -267,10 +313,18 @@ ALTER TABLE `b_cthdb`
   ADD UNIQUE KEY `SoHDB` (`SoHDB`);
 
 --
+-- Chỉ mục cho bảng `b_dm`
+--
+ALTER TABLE `b_dm`
+  ADD UNIQUE KEY `id_dm` (`id_dm`);
+
+--
 -- Chỉ mục cho bảng `b_dmsp`
 --
 ALTER TABLE `b_dmsp`
-  ADD UNIQUE KEY `MaSP` (`MaSP`);
+  ADD PRIMARY KEY (`MaSP`),
+  ADD UNIQUE KEY `MaSP` (`MaSP`),
+  ADD KEY `id_dm` (`id_dm`);
 
 --
 -- Chỉ mục cho bảng `b_hdb`
@@ -289,6 +343,12 @@ ALTER TABLE `b_hdn`
 --
 ALTER TABLE `b_kh`
   ADD UNIQUE KEY `MaKH` (`MaKH`);
+
+--
+-- Chỉ mục cho bảng `b_loaidm`
+--
+ALTER TABLE `b_loaidm`
+  ADD PRIMARY KEY (`id_loadm`);
 
 --
 -- Chỉ mục cho bảng `b_ncc`
@@ -317,6 +377,28 @@ ALTER TABLE `b_admin`
 --
 ALTER TABLE `b_cmt`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+--
+-- AUTO_INCREMENT cho bảng `b_dm`
+--
+ALTER TABLE `b_dm`
+  MODIFY `id_dm` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+
+--
+-- AUTO_INCREMENT cho bảng `b_loaidm`
+--
+ALTER TABLE `b_loaidm`
+  MODIFY `id_loadm` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+
+--
+-- Các ràng buộc cho các bảng đã đổ
+--
+
+--
+-- Các ràng buộc cho bảng `b_dmsp`
+--
+ALTER TABLE `b_dmsp`
+  ADD CONSTRAINT `b_dmsp_ibfk_1` FOREIGN KEY (`id_dm`) REFERENCES `b_dm` (`id_dm`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
