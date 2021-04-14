@@ -56,19 +56,19 @@ class Shopping_cart extends Layout
         // var_dump($this->cart->contents());
         $output = '';
         $output .= '
-  <h3>Shopping Cart</h3><br />
+  <h3>Giỏ hàng</h3><br />
   <div class="table-responsive">
    <div align="right">
-    <button type="button" id="clear_cart" class="btn-b btn-warning">Clear Cart</button>
+    <button type="button" id="clear_cart" class="btn-b btn-warning">Xóa giỏ hàng</button>
    </div>
    <br />
    <table class="table table-bordered">
     <tr>
-     <th width="40%">Name</th>
-     <th width="15%">Quantity</th>
-     <th width="15%">Price</th>
-     <th width="15%">Total</th>
-     <th width="15%">Action</th>
+     <th width="40%">Tên</th>
+     <th width="15%">Số lượng</th>
+     <th width="15%">Đơn giá</th>
+     <th width="15%">Tổng</th>
+     <th width="15%">Hành động</th>
     </tr>
 
   ';
@@ -81,13 +81,13 @@ class Shopping_cart extends Layout
     <td>' . $items["qty"] . '</td>
     <td>' . number_format($items["price"]) . '</td>
     <td>' . number_format($items["subtotal"]) . '</td>
-    <td><button type="button" name="remove" class="btn-b btn-danger btn-xs remove_inventory" id="' . $items["rowid"] . '">Remove</button></td>
+    <td><button type="button" name="remove" class="btn-b btn-danger btn-xs remove_inventory" id="' . $items["rowid"] . '">Xóa</button></td>
    </tr>
    ';
         }
         $output .= '
    <tr>
-    <td colspan="4" align="right">Total</td>
+    <td colspan="4" align="right">Tổng cộng</td>
     <td>' . number_format($this->cart->total()) . '</td>
    </tr>
   </table>
@@ -96,7 +96,7 @@ class Shopping_cart extends Layout
   ';
 
         if ($count == 0) {
-            $output = '<h3 align="center">Cart is Empty</h3>';
+            $output = '<h3 align="center">Giỏ hàng trống</h3>';
         }
         return $output;
     }

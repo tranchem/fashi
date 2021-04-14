@@ -32,33 +32,33 @@
 
                             <!-- Billing Address -->
                             <div id="billing-form" class="mb-10">
-                                <h4 class="checkout-title">Billing Address</h4>
+                                <h4 class="checkout-title">Địa chỉ thanh toán</h4>
 
                                 <div class="row">
 
                                     <div class="col-md-6 col-12 mb-20">
-                                        <label>First Name*</label>
-                                        <input type="text" placeholder="First Name" name="ten">
+                                        <label>Tên*</label>
+                                        <input type="text" placeholder="Tên" name="ten" required>
                                     </div>
 
                                     <div class="col-md-6 col-12 mb-20">
-                                        <label>Last Name*</label>
-                                        <input type="text" placeholder="Last Name" name="ho">
+                                        <label>Họ và tên đệm*</label>
+                                        <input type="text" placeholder="Họ và tên đệm" name="ho" required>
                                     </div>
 
                                     <div class="col-md-6 col-12 mb-20">
-                                        <label>Email Address*</label>
-                                        <input type="email" placeholder="Email Address" name="email">
+                                        <label>Địa chỉ email*</label>
+                                        <input type="email" placeholder="Địa chỉ email" name="email" required>
                                     </div>
 
                                     <div class="col-md-6 col-12 mb-20">
-                                        <label>Phone no*</label>
-                                        <input type="text" placeholder="Phone number" name="sdt">
+                                        <label>Số điện thoại*</label>
+                                        <input type="text" placeholder="Số điện thoại" name="sdt" required>
                                     </div>
                                     <div class="col-12 mb-20">
-                                        <label>Address*</label>
-                                        <input type="text" placeholder="Address line 1" name="dia_chi">
-                                        <input type="text" placeholder="Address line 2">
+                                        <label>Địa chỉ*</label>
+                                        <input type="text" placeholder="Địa chỉ" name="dia_chi" required>
+                                        <!-- <input type="text" placeholder="Address line 2"> -->
                                     </div>
 
 
@@ -153,11 +153,11 @@
                                 <!-- Cart Total -->
                                 <div class="col-12 mb-60">
 
-                                    <h4 class="checkout-title">Cart Total</h4>
+                                    <h4 class="checkout-title">Giỏ hàng</h4>
 
                                     <div class="checkout-cart-total">
 
-                                        <h4>Product <span>Total</span></h4>
+                                        <h4>Sản phẩm <span>Tổng</span></h4>
 
                                         <ul>
                                             <?php foreach ($this->cart->contents() as $items) { ?>
@@ -165,10 +165,10 @@
                                             <?php } ?> 
                                         </ul>
 
-                                        <p>Sub Total <span><?= number_format($this->cart->total()) ?></span></p>
-                                        <p>Shipping Fee <span>00.00</span></p>
+                                        <p>Tổng phụ <span><?= number_format($this->cart->total()) ?></span></p>
+                                        <p>Phí giao hàng <span>00.00</span></p>
 
-                                        <h4>Grand Total <span><?= number_format($this->cart->total()) ?> VND</span></h4>
+                                        <h4>Tổng cộng <span><?= number_format($this->cart->total()) ?> VND</span></h4>
 
                                     </div>
 

@@ -1,13 +1,14 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.4
+-- version 4.9.0.1
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th4 13, 2021 lúc 08:16 AM
--- Phiên bản máy phục vụ: 10.4.17-MariaDB
--- Phiên bản PHP: 8.0.0
+-- Thời gian đã tạo: Th4 14, 2021 lúc 05:27 AM
+-- Phiên bản máy phục vụ: 10.4.6-MariaDB
+-- Phiên bản PHP: 7.3.9
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -57,9 +58,8 @@ CREATE TABLE `b_cmt` (
   `id` int(11) NOT NULL,
   `MaKH` varchar(32) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `NoiDung` varchar(3000) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `KichHoat` int(11) DEFAULT NULL CHECK (`KichHoat` in (0,1)),
-  `Ngay` date DEFAULT curdate()
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+  `KichHoat` int(11) DEFAULT NULL
+) ;
 
 --
 -- Đang đổ dữ liệu cho bảng `b_cmt`
@@ -164,7 +164,8 @@ CREATE TABLE `b_dmsp` (
 --
 
 INSERT INTO `b_dmsp` (`MaSP`, `TenSP`, `DonGia`, `MoTa`, `DVT`, `SL`, `Anh`, `Anh1`, `Anh2`, `Anh3`, `Anh4`, `id_dm`) VALUES
-('SP002', 'Sắt', 30000, '', 'kg', 5, '3CE5.jpg', NULL, NULL, NULL, NULL, NULL);
+('SP002', 'Sắt', 30000, '', 'kg', 5, '3CE5.jpg', NULL, NULL, NULL, NULL, 1),
+('SP003', 'Hello', 69000, NULL, NULL, 500, '', NULL, NULL, NULL, NULL, 3);
 
 -- --------------------------------------------------------
 
@@ -173,19 +174,35 @@ INSERT INTO `b_dmsp` (`MaSP`, `TenSP`, `DonGia`, `MoTa`, `DVT`, `SL`, `Anh`, `An
 --
 
 CREATE TABLE `b_hdb` (
-  `SoHDB` varchar(32) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `SoHDB` int(8) NOT NULL,
   `Ngay` date DEFAULT NULL,
   `TongTien` float DEFAULT NULL,
   `MaNV` varchar(16) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `MaKH` varchar(16) COLLATE utf8mb4_unicode_ci DEFAULT NULL
+  `MaKH` varchar(16) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `ten` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `ho` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `email` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `sdt` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `dia_chi` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Đang đổ dữ liệu cho bảng `b_hdb`
 --
 
-INSERT INTO `b_hdb` (`SoHDB`, `Ngay`, `TongTien`, `MaNV`, `MaKH`) VALUES
-('HD001', '2021-03-23', 300000, 'NV001', 'NV001');
+INSERT INTO `b_hdb` (`SoHDB`, `Ngay`, `TongTien`, `MaNV`, `MaKH`, `ten`, `ho`, `email`, `sdt`, `dia_chi`) VALUES
+(1, '2021-03-23', 300000, 'NV001', 'NV001', NULL, NULL, NULL, NULL, NULL),
+(2, '2021-04-13', 60000, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+(3, '2021-04-13', 60000, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+(4, '2021-04-13', 60000, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+(5, '2021-04-13', 60000, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+(6, '2021-04-13', 60000, NULL, NULL, 'Tu', 'Van', 'tuvantran.it@gmail.com', '0963273254', 'So 65 pho Tram Long Bien Ha Noi'),
+(7, '2021-04-13', 60000, NULL, NULL, 'Tu', 'Van', 'tuvantran.it@gmail.com', '0963273254', 'So 65 pho Tram Long Bien Ha Noi'),
+(8, '2021-04-13', 60000, NULL, NULL, 'Tu', 'Van', 'tuvantran.it@gmail.com', '0963273254', 'So 65 pho Tram Long Bien Ha Noi'),
+(9, '2021-04-13', 60000, NULL, NULL, 'Tu', 'Van', 'tuvantran.it@gmail.com', '0963273254', 'So 65 pho Tram Long Bien Ha Noi'),
+(10, '2021-04-13', 60000, NULL, NULL, 'Tu', 'Van', 'tuvantran.it@gmail.com', '0963273254', 'So 65 pho Tram Long Bien Ha Noi'),
+(11, '2021-04-13', 60000, NULL, NULL, 'Tu', 'Van', 'tuvantran.it@gmail.com', '0963273254', 'So 65 pho Tram Long Bien Ha Noi'),
+(12, '2021-04-13', 60000, NULL, NULL, 'Tu', 'Van', 'tuvantran.it@gmail.com', '0963273254', 'So 65 pho Tram Long Bien Ha Noi');
 
 -- --------------------------------------------------------
 
@@ -305,12 +322,6 @@ ALTER TABLE `b_admin`
   ADD PRIMARY KEY (`id`);
 
 --
--- Chỉ mục cho bảng `b_cmt`
---
-ALTER TABLE `b_cmt`
-  ADD UNIQUE KEY `id` (`id`);
-
---
 -- Chỉ mục cho bảng `b_cthdb`
 --
 ALTER TABLE `b_cthdb`
@@ -334,6 +345,7 @@ ALTER TABLE `b_dmsp`
 -- Chỉ mục cho bảng `b_hdb`
 --
 ALTER TABLE `b_hdb`
+  ADD PRIMARY KEY (`SoHDB`),
   ADD UNIQUE KEY `SoHDB` (`SoHDB`);
 
 --
@@ -380,13 +392,19 @@ ALTER TABLE `b_admin`
 -- AUTO_INCREMENT cho bảng `b_cmt`
 --
 ALTER TABLE `b_cmt`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT cho bảng `b_dm`
 --
 ALTER TABLE `b_dm`
   MODIFY `id_dm` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+
+--
+-- AUTO_INCREMENT cho bảng `b_hdb`
+--
+ALTER TABLE `b_hdb`
+  MODIFY `SoHDB` int(8) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT cho bảng `b_loaidm`

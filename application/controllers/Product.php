@@ -33,9 +33,9 @@ class Product extends Layout {
 
 	}
 
-	public function detail($id='SP002')	
+	public function detail()	
 	{	
-
+		$id = $this->input->get('id_sp');
 		$this->db->where('MaSp', $id);
 		$query = $this->db->get('b_dmsp');
 		$this->db->where('KichHoat', '1');

@@ -65,11 +65,12 @@
                                                      <!-- Single Product Start -->
                                                      <div class="single-product mb-30">
                                                          <div class="product-img">
-                                                             <a href="<?= base_url('product/detail') ?>">
-                                                                 <img src="<?= $item->Anh ?>" alt="" width="270" height="350">
+                                                             <a href="<?= base_url('product/detail?id_sp=').$item->MaSP ?>">
+                                                                 <img src="<?= base_url('uploads/SanPham/'). $item->Anh ?>" alt="" width="270" height="350">
                                                              </a>
                                                              <!-- <span class="descount-sticker">-10%</span> -->
                                                              <!-- <span class="sticker">New</span> -->
+                                                             <input id="<?= $item->MaSP ?>" value="1" type="hidden" />
                                                              <div class="product-action d-flex justify-content-between">
                                                                  <a class="product-btn add_cart" href="#" data-masp="<?= $item->MaSP ?>" data-tensp="<?= $item->TenSP ?>"
                                                                     data-dongia="<?= $item->DonGia ?>" data-qty="1"

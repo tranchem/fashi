@@ -1,7 +1,8 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
-class Checkout extends Layout {
+class Checkout extends Layout
+{
 
 	/**
 	 * Index Page for this controller.
@@ -24,16 +25,14 @@ class Checkout extends Layout {
 		$this->_data['main_content'] = $this->load->view('checkout/index', [], true);
 		// $this->load->view('layout/index', $this->_data);
 		$this->render();
-
 	}
 
-    public function cart()
+	public function cart()
 	{
 		// $this->load->view('layout/index');
 		$this->_data['main_content'] = $this->load->view('checkout/cart', [], true);
 		// $this->load->view('layout/index', $this->_data);
 		$this->render();
-
 	}
 
 	public function add()
@@ -60,13 +59,25 @@ class Checkout extends Layout {
 		$insert_id = $this->db->insert_id();
 
 		$data_chi_tiet = array();
-		if($this->cart->contents()) {
-			foreach($this->cart->contents() as $item) {
+		if ($this->cart->contents()) {
+			foreach ($this->cart->contents() as $item) {
 				$data_chi_tiet[] = array(
 					'SoHDB' => $insert_id,
-					'MaSP' => $item['']
+					'MaSP' => $item['id'],
+					'SoLuong' => $item['qty'],
+					'DonGia' => $item['price'],
+					'ThanhTien' => $item['qty'] * $item['price'],
 				);
 			}
 		}
+
+		$this->db->insert_batch('b_cthdb', $data_chi_tiet);
+		$this->cart->destroy();
+		echo "
+        <script>
+            window.alert('Đặt hàng thành công!');
+        </script>
+    ";
+		redirect(base_url(), 'refresh');
 	}
 }
