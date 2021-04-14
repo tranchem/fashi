@@ -26,9 +26,9 @@
                     <!--Hero Content start-->
                     <div class="hero-content-4 center">
 
-                        <h2><span>Book your appointment</span></h2>
-                        <h1><span>Light Spring</span></h1>
-                        <h3><span>Makeup / Cosmetics</span></h3>
+                        <h2><span>Sự lựa chọn tinh tế</span></h2>
+                        
+                        <h3><span>Trang điểm / Mỹ phẩm</span></h3>
                         <a href="shop.html">Shop collection now!</a>
 
                     </div>
@@ -78,8 +78,8 @@
                     <i class="fa-truck fa"></i>
                 </div>
                 <div class="content">
-                    <h2>Free shipping worldwide</h2>
-                    <p>On order over $200</p>
+                    <h2>Free shipping khắp mọi miền tổ quốc</h2>
+                    <p>Cho đơn hàng từ 1 triệu trở lên </p>
                 </div>
             </div>
             <!-- Single Faeture End -->
@@ -91,8 +91,8 @@
                     <i class="fa fa-undo"></i>
                 </div>
                 <div class="content">
-                    <h2>30 days free return</h2>
-                    <p>Money back guarantee</p>
+                    <h2>30 ngày miễn phí đổi trả</h2>
+                    <p>hoàn tiền</p>
                 </div>
             </div>
             <!-- Single Faeture End -->
@@ -104,8 +104,8 @@
                     <i class="fa fa-thumbs-o-up"></i>
                 </div>
                 <div class="content">
-                    <h2>Member safe shopping</h2>
-                    <p>Safe shopping guarantee</p>
+                    <h2>Khách hàng thân thiết</h2>
+                    <p>Đón chờ những siêu khuyến mãi cùng khách hàng thân thiết</p>
                 </div>
             </div>
             <!-- Single Faeture End -->
@@ -122,9 +122,9 @@
         <div class="col-lg-6">
             <!-- Cta Section Start -->
             <div class="cta-section-area mb-40">
-                <h3>Get <span>10%</span> Discount</h3>
-                <p><span>Subcribe to the TheFace mailing list to receive update on mnew arrivals,</span> 
-                    <span>special offers and other discount information.</span>
+                <h3><span></span> Mã giảm giá 10%</h3>
+                <p><span>Theo dõi fanpage để nhận được những khuyến mãi đặc biệt</span> 
+                    
                 </p>
                 <div class="cta-form">
                     <form id="mc-form" class="mc-form">
@@ -146,8 +146,8 @@
             <!-- About Section Start -->
             <div class="about-section-area mb-40">
                 <div class="text-des">
-                    <h3>About us</h3>
-                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+                    <h3>Về chúng tôi</h3>
+                    <p>Hãy liên hệ và đồng hành cùng đội ngũ chuyên gia để có thể mang lại vẻ đẹp hoàn mỹ cho bạn</p>
                 </div>
                 <div class="about-social">
                     <a href="#"><i class="fa fa-twitter"></i></a>
@@ -173,13 +173,13 @@ class="product-section section pt-60 pt-lg-40 pt-md-30 pt-sm-20 pt-xs-10 pb-80 p
         <!-- Section Title Start -->
         <div class="col">
             <div class="section-title text-center mb-40 mb-xs-20">
-                <h2>Awesome our products</h2>
+                <h2>Sản phẩm của chúng tôi </h2>
             </div>
             <div class="product-tab-menu2 mb-50 mb-xs-30">
                 <ul class="nav justify-content-center">
-                    <li><a class="active" data-toggle="tab" href="#products"> New Products</a></li>
-                    <li><a data-toggle="tab" href="#onsale"> OnSale</a></li>
-                    <li><a data-toggle="tab" href="#featureproducts"> Feature Products</a></li>
+                    <li><a class="active" data-toggle="tab" href="#products"> Sản phẩm mới </a></li>
+                    <li><a data-toggle="tab" href="#onsale">Sản phẩm đang sale</a></li>
+                  
                 </ul>
             </div>
         </div>
@@ -222,7 +222,7 @@ class="product-section section pt-60 pt-lg-40 pt-md-30 pt-sm-20 pt-xs-10 pb-80 p
                                         <img src="assets/images/product/product-1.jpg" alt="">
                                     </a>
                                     <span class="descount-sticker">-10%</span>
-                                    <span class="sticker">New</span>
+                                    <span class="sticker">Mới</span>
                                     <div class="product-action d-flex justify-content-between">
                                         <a class="product-btn" href="#">Add to Cart</a>
                                         <ul class="d-flex">
@@ -233,7 +233,7 @@ class="product-section section pt-60 pt-lg-40 pt-md-30 pt-sm-20 pt-xs-10 pb-80 p
                                     </div>
                                 </div>
                                 <div class="product-content text-left">
-                                    <h3><a href="single-product.html">White Shave Brush</a></h3>
+                                    <h3><a href="single-product.html">Son kem Wylie</a></h3>
                                     <div class="ratting">
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
@@ -241,8 +241,8 @@ class="product-section section pt-60 pt-lg-40 pt-md-30 pt-sm-20 pt-xs-10 pb-80 p
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
                                     </div>
-                                    <h4 class="price"><span class="new">€110.00</span><span
-                                            class="old">€130.00</span></h4>
+                                    <h4 class="price"><span class="new">250.000đ</span><span
+                                            class="old"></span></h4>
                                 </div>
                             </div>
                             <!-- Single Product End -->
@@ -255,7 +255,7 @@ class="product-section section pt-60 pt-lg-40 pt-md-30 pt-sm-20 pt-xs-10 pb-80 p
                                         <img src="assets/images/product/product-2.jpg" alt="">
                                     </a>
                                     <span class="descount-sticker">-10%</span>
-                                    <span class="sticker">New</span>
+                                    <span class="sticker">Mới</span>
                                     <div class="product-action d-flex justify-content-between">
                                         <a class="product-btn" href="#">Add to Cart</a>
                                         <ul class="d-flex">
@@ -266,7 +266,7 @@ class="product-section section pt-60 pt-lg-40 pt-md-30 pt-sm-20 pt-xs-10 pb-80 p
                                     </div>
                                 </div>
                                 <div class="product-content text-left">
-                                    <h3><a href="single-product.html">White Shave Brux</a></h3>
+                                    <h3><a href="single-product.html">Nước tẩy trang</a></h3>
                                     <div class="ratting">
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
@@ -274,7 +274,7 @@ class="product-section section pt-60 pt-lg-40 pt-md-30 pt-sm-20 pt-xs-10 pb-80 p
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
                                     </div>
-                                    <h4 class="price"><span class="new">€130.00</span></h4>
+                                    <h4 class="price"><span class="new">150.000đ</span></h4>
                                 </div>
                             </div>
                             <!-- Single Product End -->
@@ -287,7 +287,7 @@ class="product-section section pt-60 pt-lg-40 pt-md-30 pt-sm-20 pt-xs-10 pb-80 p
                                         <img src="assets/images/product/product-3.jpg" alt="">
                                     </a>
                                     <span class="descount-sticker">-10%</span>
-                                    <span class="sticker">New</span>
+                                    <span class="sticker">Mới</span>
                                     <div class="product-action d-flex justify-content-between">
                                         <a class="product-btn" href="#">Add to Cart</a>
                                         <ul class="d-flex">
@@ -298,7 +298,7 @@ class="product-section section pt-60 pt-lg-40 pt-md-30 pt-sm-20 pt-xs-10 pb-80 p
                                     </div>
                                 </div>
                                 <div class="product-content text-left">
-                                    <h3><a href="single-product.html">White Shave Bruz</a></h3>
+                                    <h3><a href="single-product.html">Cọ trang điểm</a></h3>
                                     <div class="ratting">
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
@@ -306,7 +306,7 @@ class="product-section section pt-60 pt-lg-40 pt-md-30 pt-sm-20 pt-xs-10 pb-80 p
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
                                     </div>
-                                    <h4 class="price"><span class="new">€130.00</span></h4>
+                                    <h4 class="price"><span class="new">60.000đ</span></h4>
                                 </div>
                             </div>
                             <!-- Single Product End -->
@@ -319,7 +319,7 @@ class="product-section section pt-60 pt-lg-40 pt-md-30 pt-sm-20 pt-xs-10 pb-80 p
                                         <img src="assets/images/product/product-4.jpg" alt="">
                                     </a>
                                     <span class="descount-sticker">-10%</span>
-                                    <span class="sticker">New</span>
+                                    <span class="sticker">Mới</span>
                                     <div class="product-action d-flex justify-content-between">
                                         <a class="product-btn" href="#">Add to Cart</a>
                                         <ul class="d-flex">
@@ -330,7 +330,7 @@ class="product-section section pt-60 pt-lg-40 pt-md-30 pt-sm-20 pt-xs-10 pb-80 p
                                     </div>
                                 </div>
                                 <div class="product-content text-left">
-                                    <h3><a href="single-product.html">White Shave Bruk</a></h3>
+                                    <h3><a href="single-product.html">Cọ trang điểm Ulaf</a></h3>
                                     <div class="ratting">
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
@@ -338,7 +338,7 @@ class="product-section section pt-60 pt-lg-40 pt-md-30 pt-sm-20 pt-xs-10 pb-80 p
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
                                     </div>
-                                    <h4 class="price"><span class="new">€115.00</span></h4>
+                                    <h4 class="price"><span class="new">80.000đ</span></h4>
                                 </div>
                             </div>
                             <!-- Single Product End -->
@@ -351,7 +351,7 @@ class="product-section section pt-60 pt-lg-40 pt-md-30 pt-sm-20 pt-xs-10 pb-80 p
                                         <img src="assets/images/product/product-5.jpg" alt="">
                                     </a>
                                     <span class="descount-sticker">-10%</span>
-                                    <span class="sticker">New</span>
+                                    <span class="sticker">Mới</span>
                                     <div class="product-action d-flex justify-content-between">
                                         <a class="product-btn" href="#">Add to Cart</a>
                                         <ul class="d-flex">
@@ -362,7 +362,7 @@ class="product-section section pt-60 pt-lg-40 pt-md-30 pt-sm-20 pt-xs-10 pb-80 p
                                     </div>
                                 </div>
                                 <div class="product-content text-left">
-                                    <h3><a href="single-product.html">White Shave Brush</a></h3>
+                                    <h3><a href="single-product.html">Chì kẻ mắt</a></h3>
                                     <div class="ratting">
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
@@ -370,7 +370,7 @@ class="product-section section pt-60 pt-lg-40 pt-md-30 pt-sm-20 pt-xs-10 pb-80 p
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
                                     </div>
-                                    <h4 class="price"><span class="new">€130.00</span></h4>
+                                    <h4 class="price"><span class="new">180.000đ</span></h4>
                                 </div>
                             </div>
                             <!-- Single Product End -->
@@ -383,7 +383,7 @@ class="product-section section pt-60 pt-lg-40 pt-md-30 pt-sm-20 pt-xs-10 pb-80 p
                                         <img src="assets/images/product/product-6.jpg" alt="">
                                     </a>
                                     <span class="descount-sticker">-10%</span>
-                                    <span class="sticker">New</span>
+                                    <span class="sticker">Mới</span>
                                     <div class="product-action d-flex justify-content-between">
                                         <a class="product-btn" href="#">Add to Cart</a>
                                         <ul class="d-flex">
@@ -394,7 +394,7 @@ class="product-section section pt-60 pt-lg-40 pt-md-30 pt-sm-20 pt-xs-10 pb-80 p
                                     </div>
                                 </div>
                                 <div class="product-content text-left">
-                                    <h3><a href="single-product.html">White Shave Brug</a></h3>
+                                    <h3><a href="single-product.html">Chỉ kẻ mắt</a></h3>
                                     <div class="ratting">
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
@@ -402,7 +402,7 @@ class="product-section section pt-60 pt-lg-40 pt-md-30 pt-sm-20 pt-xs-10 pb-80 p
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
                                     </div>
-                                    <h4 class="price"><span class="new">€70.00</span><span
+                                    <h4 class="price"><span class="new">80.000</span><span
                                             class="old">€100.00</span></h4>
                                 </div>
                             </div>
@@ -416,7 +416,7 @@ class="product-section section pt-60 pt-lg-40 pt-md-30 pt-sm-20 pt-xs-10 pb-80 p
                                         <img src="assets/images/product/product-7.jpg" alt="">
                                     </a>
                                     <span class="descount-sticker">-10%</span>
-                                    <span class="sticker">New</span>
+                                    <span class="sticker">Mới</span>
                                     <div class="product-action d-flex justify-content-between">
                                         <a class="product-btn" href="#">Add to Cart</a>
                                         <ul class="d-flex">
@@ -448,7 +448,7 @@ class="product-section section pt-60 pt-lg-40 pt-md-30 pt-sm-20 pt-xs-10 pb-80 p
                                         <img src="assets/images/product/product-8.jpg" alt="">
                                     </a>
                                     <span class="descount-sticker">-10%</span>
-                                    <span class="sticker">New</span>
+                                    <span class="sticker">Mới</span>
                                     <div class="product-action d-flex justify-content-between">
                                         <a class="product-btn" href="#">Add to Cart</a>
                                         <ul class="d-flex">
@@ -485,7 +485,7 @@ class="product-section section pt-60 pt-lg-40 pt-md-30 pt-sm-20 pt-xs-10 pb-80 p
                                                         <img src="assets/images/product/product-12.jpg" alt="">
                                                     </a>
                                                     <span class="descount-sticker">-10%</span>
-                                                    <span class="sticker">New</span>
+                                                    <span class="sticker">Mới</span>
                                                     <div class="product-action d-flex justify-content-between">
                                                         <a class="product-btn" href="#">Add to Cart</a>
                                                         <ul class="d-flex">
@@ -496,7 +496,7 @@ class="product-section section pt-60 pt-lg-40 pt-md-30 pt-sm-20 pt-xs-10 pb-80 p
                                                     </div>
                                                 </div>
                                                 <div class="product-content text-left">
-                                                    <h3><a href="single-product.html">White Shave Brush</a></h3>
+                                                    <h3><a href="single-product.html">Chì kẻ mắt</a></h3>
                                                     <div class="ratting">
                                                         <i class="fa fa-star"></i>
                                                         <i class="fa fa-star"></i>
@@ -504,7 +504,7 @@ class="product-section section pt-60 pt-lg-40 pt-md-30 pt-sm-20 pt-xs-10 pb-80 p
                                                         <i class="fa fa-star"></i>
                                                         <i class="fa fa-star"></i>
                                                     </div>
-                                                    <h4 class="price"><span class="new">€110.00</span><span
+                                                    <h4 class="price"><span class="new">180.000đ</span><span
                                                             class="old">€130.00</span></h4>
                                                 </div>
                                             </div>
@@ -518,7 +518,7 @@ class="product-section section pt-60 pt-lg-40 pt-md-30 pt-sm-20 pt-xs-10 pb-80 p
                                                     <img src="assets/images/product/product-13.jpg" alt="">
                                                 </a>
                                                 <span class="descount-sticker">-10%</span>
-                                                <span class="sticker">New</span>
+                                                <span class="sticker">Mới</span>
                                                 <div class="product-action d-flex justify-content-between">
                                                     <a class="product-btn" href="#">Add to Cart</a>
                                                     <ul class="d-flex">
@@ -529,7 +529,7 @@ class="product-section section pt-60 pt-lg-40 pt-md-30 pt-sm-20 pt-xs-10 pb-80 p
                                                 </div>
                                             </div>
                                             <div class="product-content text-left">
-                                                <h3><a href="single-product.html">White Shave Brux</a></h3>
+                                                <h3><a href="single-product.html">Sữa dưỡng ẩm</a></h3>
                                                 <div class="ratting">
                                                     <i class="fa fa-star"></i>
                                                     <i class="fa fa-star"></i>
@@ -537,7 +537,7 @@ class="product-section section pt-60 pt-lg-40 pt-md-30 pt-sm-20 pt-xs-10 pb-80 p
                                                     <i class="fa fa-star"></i>
                                                     <i class="fa fa-star"></i>
                                                 </div>
-                                                <h4 class="price"><span class="new">€130.00</span></h4>
+                                                <h4 class="price"><span class="new">230.000đ</span></h4>
                                             </div>
                                         </div>
                                         <!-- Single Product End -->
@@ -550,7 +550,7 @@ class="product-section section pt-60 pt-lg-40 pt-md-30 pt-sm-20 pt-xs-10 pb-80 p
                                                     <img src="assets/images/product/product-14.jpg" alt="">
                                                 </a>
                                                 <span class="descount-sticker">-10%</span>
-                                                <span class="sticker">New</span>
+                                                <span class="sticker">Mới</span>
                                                 <div class="product-action d-flex justify-content-between">
                                                     <a class="product-btn" href="#">Add to Cart</a>
                                                     <ul class="d-flex">
@@ -561,7 +561,7 @@ class="product-section section pt-60 pt-lg-40 pt-md-30 pt-sm-20 pt-xs-10 pb-80 p
                                                 </div>
                                             </div>
                                             <div class="product-content text-left">
-                                                <h3><a href="single-product.html">White Shave Bruz</a></h3>
+                                                <h3><a href="single-product.html">Phấn trang điểm</a></h3>
                                                 <div class="ratting">
                                                     <i class="fa fa-star"></i>
                                                     <i class="fa fa-star"></i>
@@ -569,7 +569,7 @@ class="product-section section pt-60 pt-lg-40 pt-md-30 pt-sm-20 pt-xs-10 pb-80 p
                                                     <i class="fa fa-star"></i>
                                                     <i class="fa fa-star"></i>
                                                 </div>
-                                                <h4 class="price"><span class="new">€130.00</span></h4>
+                                                <h4 class="price"><span class="new">130.000đ</span></h4>
                                             </div>
                                         </div>
                                         <!-- Single Product End -->
@@ -582,7 +582,7 @@ class="product-section section pt-60 pt-lg-40 pt-md-30 pt-sm-20 pt-xs-10 pb-80 p
                                                     <img src="assets/images/product/product-4.jpg" alt="">
                                                 </a>
                                                 <span class="descount-sticker">-10%</span>
-                                                <span class="sticker">New</span>
+                                                <span class="sticker">Mới</span>
                                                 <div class="product-action d-flex justify-content-between">
                                                     <a class="product-btn" href="#">Add to Cart</a>
                                                     <ul class="d-flex">
@@ -593,7 +593,7 @@ class="product-section section pt-60 pt-lg-40 pt-md-30 pt-sm-20 pt-xs-10 pb-80 p
                                                 </div>
                                             </div>
                                             <div class="product-content text-left">
-                                                <h3><a href="single-product.html">White Shave Bruk</a></h3>
+                                                <h3><a href="single-product.html">Cọ mắt Brush</a></h3>
                                                 <div class="ratting">
                                                     <i class="fa fa-star"></i>
                                                     <i class="fa fa-star"></i>
@@ -601,7 +601,7 @@ class="product-section section pt-60 pt-lg-40 pt-md-30 pt-sm-20 pt-xs-10 pb-80 p
                                                     <i class="fa fa-star"></i>
                                                     <i class="fa fa-star"></i>
                                                 </div>
-                                                <h4 class="price"><span class="new">€115.00</span></h4>
+                                                <h4 class="price"><span class="new">115.000đ</span></h4>
                                             </div>
                                         </div>
                                         <!-- Single Product End -->
@@ -631,7 +631,7 @@ class="product-section section pt-60 pt-lg-40 pt-md-30 pt-sm-20 pt-xs-10 pb-80 p
                                                 </div>
                                             </div>
                                             <div class="product-content text-left">
-                                                <h3><a href="single-product.html">White Shave Brug</a></h3>
+                                                <h3><a href="single-product.html">Son lỳ Gray</a></h3>
                                                 <div class="ratting">
                                                     <i class="fa fa-star"></i>
                                                     <i class="fa fa-star"></i>
@@ -639,7 +639,7 @@ class="product-section section pt-60 pt-lg-40 pt-md-30 pt-sm-20 pt-xs-10 pb-80 p
                                                     <i class="fa fa-star"></i>
                                                     <i class="fa fa-star"></i>
                                                 </div>
-                                                <h4 class="price"><span class="new">€140.00</span></h4>
+                                                <h4 class="price"><span class="new">280.000đ</span></h4>
                                             </div>
                                         </div>
                                         <!-- Single Product End -->
@@ -1176,7 +1176,7 @@ class="product-section section pt-60 pt-lg-40 pt-md-30 pt-sm-20 pt-xs-10 pb-80 p
                                         <img src="assets/images/product/product-4.jpg" alt="">
                                     </a>
                                     <span class="descount-sticker">-10%</span>
-                                    <span class="sticker">New</span>
+                                    <span class="sticker">Mới</span>
                                     <div class="product-action d-flex justify-content-between">
                                         <a class="product-btn" href="#">Add to Cart</a>
                                         <ul class="d-flex">
@@ -1187,7 +1187,7 @@ class="product-section section pt-60 pt-lg-40 pt-md-30 pt-sm-20 pt-xs-10 pb-80 p
                                     </div>
                                 </div>
                                 <div class="product-content text-left">
-                                    <h3><a href="single-product.html">White Shave Bruk</a></h3>
+                                    <h3><a href="single-product.html">Cọ mắt Brud</a></h3>
                                     <div class="ratting">
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
@@ -1195,7 +1195,7 @@ class="product-section section pt-60 pt-lg-40 pt-md-30 pt-sm-20 pt-xs-10 pb-80 p
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
                                     </div>
-                                    <h4 class="price"><span class="new">€115.00</span></h4>
+                                    <h4 class="price"><span class="new">115.000đ</span></h4>
                                 </div>
                             </div>
                             <!-- Single Product End -->
@@ -1588,7 +1588,7 @@ class="blog-section section bg-gray pt-100 pt-lg-80 pt-md-70 pt-sm-60 pt-xs-50 p
         <!-- Section Title Start -->
         <div class="col">
             <div class="section-title mb-40 mb-xs-20">
-                <h2>From the blog</h2>
+                <h2>Blog của chúng tôi</h2>
             </div>
         </div>
         <!-- Section Title End -->
@@ -1624,11 +1624,11 @@ class="blog-section section bg-gray pt-100 pt-lg-80 pt-md-70 pt-sm-60 pt-xs-50 p
             <div class="blog-inner">
                 <div class="media"><a href="blog-details.html" class="image"><img src="assets/images/blog/blog1.png" alt=""></a></div>
                 <div class="content">
-                    <h3 class="title"><a href="blog-details.html">Cool boy with tattoo</a></h3>
+                    <h3 class="title"><a href="blog-details.html">Xinh đẹp cùng bộ dụng cụ BeLive</a></h3>
                     <ul class="meta">
                         <li><i class="fa fa-calendar"></i><span class="date-time"><span class="date">20</span><span class="separator">-</span><span class="month">Jul</span></span></li>
                     </ul>
-                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat </p>
+                    <p>Với sắc tinh tế hài hòa, Belive sẽ mang đến cho các bạn những điều kì diệu về màu sắc </p>
                     <a class="readmore" href="blog-details.html">Read more</a>
                 </div>
             </div>
@@ -1639,11 +1639,11 @@ class="blog-section section bg-gray pt-100 pt-lg-80 pt-md-70 pt-sm-60 pt-xs-50 p
             <div class="blog-inner">
                 <div class="media"><a href="blog-details.html" class="image"><img src="assets/images/blog/blog2.png" alt=""></a></div>
                 <div class="content">
-                    <h3 class="title"><a href="blog-details.html">Blog image post</a></h3>
+                    <h3 class="title"><a href="blog-details.html">Bộ sưu tập Sắc xuân Hà Nội</a></h3>
                     <ul class="meta">
                         <li><i class="fa fa-calendar"></i><span class="date-time"><span class="date">20</span><span class="separator">-</span><span class="month">Jul</span></span></li>
                     </ul>
-                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat </p>
+                    <p> Với bộ sưu tập màu sắc tươi mới sẽ làm mùa xuân trở nên thật kì diệu </p>
                     <a class="readmore" href="blog-details.html">Read more</a>
                 </div>
             </div>
@@ -1654,11 +1654,11 @@ class="blog-section section bg-gray pt-100 pt-lg-80 pt-md-70 pt-sm-60 pt-xs-50 p
             <div class="blog-inner">
                 <div class="media"><a href="blog-details.html" class="image"><img src="assets/images/blog/blog3.png" alt=""></a></div>
                 <div class="content">
-                    <h3 class="title"><a href="blog-details.html">Blog Audio post</a></h3>
+                    <h3 class="title"><a href="blog-details.html">Những thiên thần của thiên nhiên</a></h3>
                     <ul class="meta">
                         <li><i class="fa fa-calendar"></i><span class="date-time"><span class="date">20</span><span class="separator">-</span><span class="month">Jul</span></span></li>
                     </ul>
-                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat </p>
+                    <p>Được lấy cảm hứng và nguồn nhiên liệu tự nhiên, bộ sản phẩm thiên nhiên sẽ mang đến những sự tươi mới cho làn da  </p>
                     <a class="readmore" href="blog-details.html">Read more</a>
                 </div>
             </div>

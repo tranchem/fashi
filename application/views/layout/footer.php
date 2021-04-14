@@ -10,7 +10,7 @@
             <!--Footer Widget start-->
             <div class="footer-widget col-lg-3 col-md-6 col-sm-6 col-12 mb-40 mb-xs-35">
                 <h4 class="title"><span class="text">About TheFace</span></h4>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat</p>
+                
                 <div class="footer-social">
                     <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
                     <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
@@ -25,15 +25,13 @@
             
             <!--Footer Widget start-->
             <div class="footer-widget col-lg-3 col-md-6 col-sm-6 col-12 mb-40 mb-xs-35">
-                <h4 class="title"><span class="text">Information</span></h4>
+                <h4 class="title"><span class="text">Thông tin</span></h4>
                 <ul class="ft-menu">
-                    <li><a href="#">Returns</a></li>
-                    <li><a href="#">Delivery</a></li>
-                    <li><a href="#">Service</a></li>
-                    <li><a href="#">Gift Cards</a></li>
-                    <li><a href="#">Mobile</a></li>
-                    <li><a href="#">Gift Cards</a></li>
-                    <li><a href="#">Unsubscribe Notification</a></li>
+                    <li><a href="#">Chế độ hoàn trả</a></li>
+                    <li><a href="#">Vận chuyển</a></li>
+                    <li><a href="#">Dịchvụ</a></li>
+                    <li><a href="#">Thẻ quà tặng</a></li>
+                  
                 </ul>
             </div>
             <!--Footer Widget end-->
@@ -41,26 +39,25 @@
 
             <!--Footer Widget start-->
             <div class="footer-widget col-lg-3 col-md-6 col-sm-6 col-12 mb-40 mb-xs-35">
-                <h4 class="title"><span class="text">Our Offers</span></h4>
+                <h4 class="title"><span class="text">Sản phẩm của chúng tôi</span></h4>
                 <ul class="ft-menu">
-                    <li><a href="#">New products</a></li>
-                    <li><a href="#">Top sellers</a></li>
-                    <li><a href="#">Specials</a></li>
-                    <li><a href="#">Manufacturers</a></li>
-                    <li><a href="#">Suppliers</a></li>
-                    <li><a href="#">Specials</a></li>
-                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Sản phẩm mới</a></li>
+                    <li><a href="#">Top sản phẩm bán chạy</a></li>
+                    <li><a href="#">Sản phẩm đặc biệt</a></li>
+                    <li><a href="#">Sản phẩm xách tay</a></li>
+                    <li><a href="#">Nhà sản xuất</a></li>
+                    
                 </ul>
             </div>
             <!--Footer Widget end-->
 
             <!--Footer Widget start-->
             <div class="footer-widget col-lg-3 col-md-6 col-sm-6 col-12 mb-40 mb-xs-35">
-                <h4 class="title"><span class="text">Contact us</span></h4>
+                <h4 class="title"><span class="text">Liên hệ</span></h4>
                 <ul class="address">
                     <li><i class="fa fa-home"></i><span>số 12, phố chùa Bộc, Đống Đa, Hà Nội</span>
                     </li>
-                    <li><i class="fa fa-phone"></i><span><a href="#">0963 273 254</a></span></li>
+                    <li><i class="fa fa-phone"></i><span><a href="#">0945 320 619</a></span></li>
                     <li><i class="fa fa-envelope-o"></i><span><a href="#">thefacestore@gmail.com</a></span></li>
                 </ul>
                 <div class="payment-box mt-15 mb-15">
@@ -79,7 +76,7 @@
         <div class="row justify-content-between align-items-center">
             <div class="col-lg-6 col-md-6 col-sm-8">
                 <div class="copyright text-left">
-                    <p>Copyright &copy;2019 <a href="#">Theface</a>. All rights reserved.</p>
+                    <p><a href="#">ThefaceShop</a></p>
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-4">

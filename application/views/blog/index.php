@@ -27,11 +27,11 @@
                         <div class="blog-inner mb-20">
                             <div class="media"><a href="<?= base_url('blog/detail') ?>" class="image"><img src="assets/images/blog/blog1.png" alt=""></a></div>
                             <div class="content">
-                                <h3 class="title"><a href="<?= base_url('blog/detail') ?>">Cool boy with tattoo</a></h3>
+                                <h3 class="title"><a href="<?= base_url('blog/detail') ?>">7 mẹo trang điểm cực hữu ích</a></h3>
                                 <ul class="meta">
                                     <li><i class="fa fa-calendar"></i><span class="date-time"><span class="date">15</span><span class="separator">-</span><span class="month">Jan</span></span></li>
                                 </ul>
-                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat </p>
+                                <p>Bạn đang tập make-up và vẫn lúng túng để làm quen với từng bước trang điểm? Đừng quá lo lắng, TheFace sẵn sàng chia sẻ một vài mẹo hữu ích </p>
                                 <a class="readmore" href="<?= base_url('blog/detail') ?>">Read more</a>
                             </div>
                         </div>
@@ -54,37 +54,22 @@
                                 "slidesToShow": 1
                                 }}
                                 ]'>
-                                <a href="<?= base_url('blog/detail') ?>" class="image"><img src="assets/images/blog/blog1.png" alt=""></a>
-                                <a href="<?= base_url('blog/detail') ?>" class="image"><img src="assets/images/blog/blog2.png" alt=""></a>
+                                
                                 <a href="<?= base_url('blog/detail') ?>" class="image"><img src="assets/images/blog/blog3.png" alt=""></a>
                             </div>
                             <div class="content">
-                                <h3 class="title"><a href="<?= base_url('blog/detail') ?>">Post with Gallery</a></h3>
+                                <h3 class="title"><a href="<?= base_url('blog/detail') ?>">Bí quyết "nằm lòng" về chăm sóc da các quý cô nên biết   </a></h3>
                                 <ul class="meta">
                                     <li><i class="fa fa-calendar"></i><span class="date-time"><span class="date">03</span><span class="separator">-</span><span class="month">Apr</span></span></li>
                                 </ul>
-                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat </p>
+                                <p>Nếu da mặt không được làm sạch, lại bị ép buộc phải trang điểm ngay sau đó thì các lỗ chân lông sẽ bị bít kín, sản sinh ra mụn đầu đen. </p>
                                 <a class="readmore" href="<?= base_url('blog/detail') ?>">Read more</a>
                             </div>
                         </div>
                     </div>
                     <!-- Single Blog End -->
                     <!-- Single Blog Start -->
-                    <div class="blog col-lg-4 col-md-6 col-sm-6">
-                        <div class="blog-inner mb-20">
-                            <div class="blog-audio">
-                                <iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/423752469&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>
-                            </div>
-                            <div class="content">
-                                <h3 class="title"><a href="blog-details.html">Post with Audio</a></h3>
-                                <ul class="meta">
-                                    <li><i class="fa fa-calendar"></i><span class="date-time"><span class="date">13</span><span class="separator">-</span><span class="month">Jul</span></span></li>
-                                </ul>
-                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat </p>
-                                <a class="readmore" href="blog-details.html">Read more</a>
-                            </div>
-                        </div>
-                    </div>
+                    
                     <!-- Single Blog End -->
                    <!-- Single Blog Start -->
                    <div class="blog col-lg-4 col-md-6 col-sm-6">
@@ -93,11 +78,11 @@
                                 <iframe src="https://www.youtube.com/embed/5T-_dYz8Uvw"></iframe>
                             </div>
                             <div class="content">
-                                <h3 class="title"><a href="blog-details.html">Post with Video</a></h3>
+                                <h3 class="title"><a href="blog-details.html">TOP CÁC BLOG REVIEW MỸ PHẨM NỔI TIẾNG VIỆT NAM</a></h3>
                                 <ul class="meta">
                                     <li><i class="fa fa-calendar"></i><span class="date-time"><span class="date">19</span><span class="separator">-</span><span class="month">Feb</span></span></li>
                                 </ul>
-                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat </p>
+                                <p>Các blog review mỹ phẩm nổi tiếng của Việt Nam đến từ những con người đam mê về làm đẹp và thích chia sẻ. Họ hoàn toàn không vụ lợi về việc PR hay quảng cáo cho bất kỳ sản phẩm của bên nào. Bạn có đang tìm kiếm các trang review mỹ phẩm uy tín như thế? </p>
                                 <a class="readmore" href="blog-details.html">Read more</a>
                             </div>
                         </div>
@@ -108,92 +93,29 @@
                         <div class="blog-inner mb-20">
                             <div class="media"><a href="blog-details.html" class="image"><img src="assets/images/blog/blog2.png" alt=""></a></div>
                             <div class="content">
-                                <h3 class="title"><a href="blog-details.html">Blog image post</a></h3>
+                                <h3 class="title"><a href="blog-details.html">Trang phục cùng cách trang điểm cho buổi dạ hội</a></h3>
                                 <ul class="meta">
                                     <li><i class="fa fa-calendar"></i><span class="date-time"><span class="date">20</span><span class="separator">-</span><span class="month">Jul</span></span></li>
                                 </ul>
-                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat </p>
+                                <p>Trang phục cùng cách trang điểm trong buổi dạ hội sẽ là điểm nhấn cho bạn trong những buổi tiệc quan trọng    </p>
                                 <a class="readmore" href="blog-details.html">Read more</a>
                             </div>
                         </div>
                     </div>
                     <!-- Single Blog End -->
                     <!-- Single Blog Start -->
-                    <div class="blog col-lg-4 col-md-6 col-sm-6">
-                        <div class="blog-inner mb-20">
-                            <div class="tf-element-carousel" data-slick-options='{
-                                "slidesToShow": 1,
-                                "slidesToScroll": 1,
-                                "infinite": true,
-                                "arrows": false,
-                                "autoplay": true
-                                }' data-slick-responsive='[
-                                {"breakpoint":768, "settings": {
-                                "slidesToShow": 1
-                                }},
-                                {"breakpoint":575, "settings": {
-                                "slidesToShow": 1
-                                }}
-                                ]'>
-                                <a href="blog-details.html" class="image"><img src="assets/images/blog/blog1.png" alt=""></a>
-                                <a href="blog-details.html" class="image"><img src="assets/images/blog/blog2.png" alt=""></a>
-                                <a href="blog-details.html" class="image"><img src="assets/images/blog/blog3.png" alt=""></a>
-                            </div>
-                            <div class="content">
-                                <h3 class="title"><a href="blog-details.html">Post with Gallery</a></h3>
-                                <ul class="meta">
-                                    <li><i class="fa fa-calendar"></i><span class="date-time"><span class="date">27</span><span class="separator">-</span><span class="month">Jul</span></span></li>
-                                </ul>
-                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat </p>
-                                <a class="readmore" href="blog-details.html">Read more</a>
-                            </div>
-                        </div>
-                    </div>
+                    
                     <!-- Single Blog End -->
                     <!-- Single Blog Start -->
                     <div class="blog col-lg-4 col-md-6 col-sm-6">
                         <div class="blog-inner mb-20">
-                            <div class="blog-audio">
-                                <iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/423752469&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>
-                            </div>
+                            <div class="media"><a href="blog-details.html" class="image"><img src="assets/images/blog/blog4.jpg" alt=""></a></div>
                             <div class="content">
-                                <h3 class="title"><a href="blog-details.html">Post with Audio</a></h3>
-                                <ul class="meta">
-                                    <li><i class="fa fa-calendar"></i><span class="date-time"><span class="date">21</span><span class="separator">-</span><span class="month">Nov</span></span></li>
-                                </ul>
-                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat </p>
-                                <a class="readmore" href="blog-details.html">Read more</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Single Blog End -->
-                    <!-- Single Blog Start -->
-                    <div class="blog col-lg-4 col-md-6 col-sm-6">
-                        <div class="blog-inner mb-20">
-                            <div class="blog-video">
-                                <iframe src="https://www.youtube.com/embed/5T-_dYz8Uvw"></iframe>
-                            </div>
-                            <div class="content">
-                                <h3 class="title"><a href="blog-details.html">Post with Video</a></h3>
-                                <ul class="meta">
-                                    <li><i class="fa fa-calendar"></i><span class="date-time"><span class="date">13</span><span class="separator">-</span><span class="month">Apr</span></span></li>
-                                </ul>
-                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat </p>
-                                <a class="readmore" href="blog-details.html">Read more</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Single Blog End -->
-                    <!-- Single Blog Start -->
-                    <div class="blog col-lg-4 col-md-6 col-sm-6">
-                        <div class="blog-inner mb-20">
-                            <div class="media"><a href="blog-details.html" class="image"><img src="assets/images/blog/blog3.png" alt=""></a></div>
-                            <div class="content">
-                                <h3 class="title"><a href="blog-details.html">Cool boy with tattoo</a></h3>
+                                <h3 class="title"><a href="blog-details.html">Trước tiên, vì sao cần học trang điểm?</a></h3>
                                 <ul class="meta">
                                     <li><i class="fa fa-calendar"></i><span class="date-time"><span class="date">20</span><span class="separator">-</span><span class="month">Aug</span></span></li>
                                 </ul>
-                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat </p>
+                                <p>Đã là con gái thì nên học cách trang điểm </p>
                                 <a class="readmore" href="blog-details.html">Read more</a>
                             </div>
                         </div>

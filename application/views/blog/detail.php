@@ -88,12 +88,13 @@
                                         <a href="#"> Fashion</a>,<a href="#">WordPress</a>
                                     </span>
                                     <h2 class="entry-title">
-                                        Blog image post
+                                          7 mẹo trang điểm “để đời” cho nàng đang tập make-up
+
                                     </h2>
                                     <span class="post-author">
-                                    <span class="post-by"> Posts by : </span> admin </span>
+                                    <span class="post-by"> Posts by : </span> ADMIN </span>
                                     <span class="post-separator">|</span>
-                                    <span class="post-date"><i class="fas fa-calendar-alt"></i>On March 10, 2018 </span>
+                                    <span class="post-date"><i class="fas fa-calendar-alt"></i>On March 10, 2021 </span>
                                 </header>
                                 <div class="post-thumbnail img-full">
                                     <img src="./../assets/images/blog/blog-details-1.jpg" alt="">
@@ -101,10 +102,57 @@
                                 <div class="postinfo-wrapper">
                                     <div class="post-info">
                                         <div class="entry-summary blog-post-description">
-                                            <p>Donec vitae hendrerit arcu, sit amet faucibus nisl. Cras pretium arcu ex. Aenean posuere libero eu augue condimentum rhoncus. Praesent ornare tortor ac ante egestas hendrerit. Aliquam et metus pharetra, bibendum massa nec, fermentum odio. Nunc id leo ultrices, mollis ligula in, finibus tortor. Mauris eu dui ut lectus fermentum eleifend. Pellentesque faucibus sem ante, non malesuada odio varius nec. Suspendisse potenti.</p>
-                                            <blockquote><p>Quisque semper nunc vitae erat pellentesque, ac placerat arcu consectetur. In venenatis elit ac ultrices convallis. Duis est nisi, tincidunt ac urna sed, cursus blandit lectus. In ullamcorper sit amet ligula ut eleifend. Proin dictum tempor ligula, ac feugiat metus. Sed finibus tortor eu scelerisque scelerisque.</p></blockquote>
-                                            <p>Aenean et tempor eros, vitae sollicitudin velit. Etiam varius enim nec quam tempor, sed efficitur ex ultrices. Phasellus pretium est vel dui vestibulum condimentum. Aenean nec suscipit nibh. Phasellus nec lacus id arcu facilisis elementum. Curabitur lobortis, elit ut elementum congue, erat ex bibendum odio, nec iaculis lacus sem non lorem. Duis suscipit metus ante, sed convallis quam posuere quis. Ut tincidunt eleifend odio, ac fringilla mi vehicula nec. Nunc vitae lacus eget lectus imperdiet tempus sed in dui. Nam molestie magna at risus consectetur, placerat suscipit justo dignissim. Sed vitae fringilla enim, nec ullamcorper arcu.</p>
-                                            <p>Suspendisse turpis ipsum, tempus in nulla eu, posuere pharetra nibh. In dignissim vitae lorem non mollis. Praesent pretium tellus in tortor viverra condimentum. Nullam dignissim facilisis nisl, accumsan placerat justo ultricies vel. Vivamus finibus mi a neque pretium, ut convallis dui lacinia. Morbi a rutrum velit. Curabitur sagittis quam quis consectetur mattis. Aenean sit amet quam vel turpis interdum sagittis et eget neque. Nunc ante quam, luctus et neque a, interdum iaculis metus. Aliquam vel ante mattis, placerat orci id, vehicula quam. Suspendisse quis eros cursus, viverra urna sed, commodo mauris. Cras diam arcu, fringilla a sem condimentum, viverra facilisis nunc. Curabitur vitae orci id nulla maximus maximus. Nunc pulvinar sollicitudin molestie.</p>
+                                            <p>Mẹo trang điểm 1: Không mua những vật dụng không cần thiết
+Đối với các nàng mới bắt đầu trang điểm, không nên “lượn lờ” ở những thương hiệu mỹ phẩm cao cấp mà lại không biết mình cần mua gì, hoặc không hiểu hết công dụng của các sản phẩm. Điều này để tránh làm “đau ví” các nàng đấy! Chỉ nên mua các sản phẩm trang điểm căn bản thôi.</p>
+                                            <blockquote><p>Việc đầu tiên dành cho người mới bắt đầu là phải tìm ra những gì tốt nhất đáp ứng đủ nhu cầu làm đẹp của bản thân. Thay vì phá vỡ ngân sách của chính mình, tốt nhất nên trực tiếp tìm kiếm về các sản phẩm DUPE. Nghĩa là bạn có thể sử dụng mỹ phẩm bình dân gần giống như những hãng cao cấp mà công dụng và chất liệu vẫn tuyệt vời không kém. </p></blockquote>
+                                            <p>Ví dụ nhé, nếu muốn “tậu” một bộ bút chì kẻ mắt Urban Decay đắt đỏ, thì có thể thay thế bằng các cọ bút chì Secret Key dòng Twinke Water Proof Gel Pencil. Cả hai đều có công dụng như nhau, đường nét tô sắc sảo và dễ kẻ, nhưng giá thành lại chênh lệch rất lớn. Làm cách nào để chọn được bản DUPE hoàn hảo? Một cách chính xách cho bạn là từ những đánh giá của “500 chị em” mê đẹp trên các nhóm Facebook hoặc diễn dàn,…</p>
+                                            <p>Mẹo trang điểm 2: Lựa chọn sản phẩm phù hợp với làn da Mỹ phẩm nhất định phải hợp với da bạn (Nguồn: Stylennanda)
+
+Bạn phải hiểu rõ làn da của mình. Nếu da dầu thì nên tìm các loại mỹ phẩm có công dụng kìm dầu. Hay nếu da mụn thì hãy tìm đến dược mỹ phẩm, giá thành có thể mắc hơn một chút nhưng an toàn và dịu nhẹ hơn. Khi đã hiểu rõ về da của mình thì bạn có thể nhờ nhân viên hãng tư vấn loại mỹ phẩm phù hợp. </p>
+<p>Mẹo trang điểm 3: Làm sạch da trước khi trang điểm
+làm sạch da trước khi trang điểm
+
+Da sạch giúp lớp trang điểm hoàn hảo hơn (Nguồn: Stylennanda)
+
+Điều này rất quan trọng. Nếu là người kĩ càng, thì trước hết nên tẩy tế bào chết cho da, kế đến dùng sửa rửa mặt để loại bỏ đi các chất sừng, bụi bẩn còn bám trên da. Cân bằng độ PH cho da bằng cách sử dụng nước hoa hồng, và sau đó là thoa thật mỏng một lớp kem dưỡng ẩm.  Vì sao phải rắc rối như vậy? Vì làn da rất nhạy cảm, những điều trên sẽ bảo vệ da tránh khỏi thương tổn do mỹ phẩm đồng thời giúp mỹ phẩm lâu trôi khi trang điểm. </p>
+<p>Mẹo trang điểm 3: Làm sạch da trước khi trang điểm
+làm sạch da trước khi trang điểm
+
+Da sạch giúp lớp trang điểm hoàn hảo hơn (Nguồn: Stylennanda)
+
+Điều này rất quan trọng. Nếu là người kĩ càng, thì trước hết nên tẩy tế bào chết cho da, kế đến dùng sửa rửa mặt để loại bỏ đi các chất sừng, bụi bẩn còn bám trên da. Cân bằng độ PH cho da bằng cách sử dụng nước hoa hồng, và sau đó là thoa thật mỏng một lớp kem dưỡng ẩm.  Vì sao phải rắc rối như vậy? Vì làn da rất nhạy cảm, những điều trên sẽ bảo vệ da tránh khỏi thương tổn do mỹ phẩm đồng thời giúp mỹ phẩm lâu trôi khi trang điểm.</p>
+<p>Mẹo trang điểm 4: Tạo lớp nền cho da thật kỹ
+mẹo trang điểm nền
+
+Lớp nền càng kỹ, lớp trang điểm càng đẹp (Nguồn: Stylennanda)
+
+Với các nàng đang có nhu cầu tiết kiệm thì việc mua 1 trong 2 loại BB Cream hoặc CC Cream đều được. Hiện nay có rất nhiều loại mỹ phẩm có công dụng 2 trong 1: vừa là kem lót vừa làm kem nền. Tuy nhiên, cần lưu ý về màu sắc của kem lót hay kem nền nhé. Hãy test thử sản phẩm lên phía trong cánh tay và so sánh với màu da. Trường hợp không biết chọn màu nào thì có thể chọn màu trung tính. </p>
+<p>Mẹo trang điểm 5: Không được bỏ quên cổ
+trang điểm phần cổ rất quan trọng
+
+Trang điểm phần cổ để bạn trông tự nhiên hơn (Nguồn: Stylennanda)
+
+Rất nhiều nàng khi mới bắt đầu trang điểm thường bỏ quên cổ, bạn nên đánh màu ở cổ để phù hợp với tông màu đánh trên mặt nhé. Có thể không cần thiết quá kĩ nhưng đừng để màu cổ và màu da mặt “chúng ta không thuộc về nhau” thì hơi kém duyên đấy!</p>
+<p>Mẹo trang điểm 6: Chì kẻ mắt sẽ dễ hơn cho người mới makeup
+nên sử dụng loại kẻ mắt nào
+
+Người mới trang điểm nên tập kẻ bằng chì kẻ mắt (Nguồn: Pinterest)
+
+Các nàng đang tập trang điểm hãy chú ý, bút kẻ mắt là công cụ không thể thiếu nếu như bạn muốn có đôi mắt ấn tượng. Tuy nhiên, sẽ khó mà quen với việc sử dụng bút nước hoặc dạng gel nếu chưa quen. Không khéo lại thành “thảm hoạ trang điểm”!
+
+Vậy nên hãy sắm cho mình một bút chì kẻ mắt để dễ làm chủ đường vẽ hơn. Hãy bắt đầu từ đường kẻ mắt cơ bản, mỏng và đơn giản rồi hẳn tiếp tục kẻ những đường mắt phức tạp nhé.</p>
+<p>Mẹo trang điểm 7: Chọn son môi thích hợp với làn da cực kỳ quan trọng
+Chọn tông son hợp với tông da
+
+Tông son phải hợp với tông da của bạn (Nguồn: Stylenanda)
+
+Để tìm được son môi yêu thích, nên thử hết tất cả các màu sắc cũng như nhờ sự tư vấn từ bạn bè, chuyên gia trang điểm. Đây là một số gợi ý cho bạn:
+
+Nàng da trắng nên ưu tiên chọn tông hồng, mơ hoặc màu san hô. Các màu “khó nuốt” khác như café, hoa cà, hồng đào cũng sẽ giúp da bạn trông nổi bật.
+Nàng có da vàng nâu thì nên dùng các màu có sắc tối, màu nhẹ, hồng, nâu, đỏ.
+Nếu sở hữu nước da sẫm màu thì nên dùng son nâu, màu berry hay màu nâu, đỏ gạch, caramel.
+Làn da tối màu thì màu đỏ thẫm, nâu, mật ong, màu rượu vang là hoàn toàn thích hợp.
+Trên đây là 7 mẹo trang điểm dành cho người mới bắt đầu, bạn lưu ý rằng hãy nên trang điểm đơn giản, tự nhiên ngay từ mới bắt đầu rồi sau đó hãy bắt đầu đến các bước phức tạp hơn. Trong quá trình trang điểm, nếu mắc phải lỗi makeup nào thì nhớ ghi chú lại để lần sau không tái phạm nhé. Đẹp365 hy vọng bài viết này sẽ giúp ích cho bạn.</p>
                                             <!--Blog Post Tag-->
                                             <div class="single-post-tag">
                                                 <a href="#">3 comments</a>
