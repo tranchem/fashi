@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th4 14, 2021 lúc 05:27 AM
+-- Thời gian đã tạo: Th4 14, 2021 lúc 07:40 AM
 -- Phiên bản máy phục vụ: 10.4.6-MariaDB
 -- Phiên bản PHP: 7.3.9
 
@@ -56,7 +56,6 @@ INSERT INTO `b_admin` (`id`, `HoTen`, `Truong`, `Email`, `HoKhau`, `ThanhPho`, `
 
 CREATE TABLE `b_cmt` (
   `id` int(11) NOT NULL,
-  `MaKH` varchar(32) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `NoiDung` varchar(3000) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `KichHoat` int(11) DEFAULT NULL
 ) ;
@@ -65,9 +64,14 @@ CREATE TABLE `b_cmt` (
 -- Đang đổ dữ liệu cho bảng `b_cmt`
 --
 
-INSERT INTO `b_cmt` (`id`, `MaKH`, `NoiDung`, `KichHoat`, `Ngay`) VALUES
-(2, 'KH001', 'xau qua', 0, '2021-04-12'),
-(3, 'KH001', 'cung dc', 1, '0000-00-00');
+INSERT INTO `b_cmt` (`id`, `NoiDung`, `KichHoat`, `Ngay`, `Ten`, `MaSP`) VALUES
+(2, 'xau qua', 1, '2021-04-12', NULL, NULL),
+(3, 'cung dc', 1, '0000-00-00', NULL, NULL),
+(4, 'Tú', 1, '2021-04-14', 'Đẹp mà rẻ đấy ', 'SP002'),
+(5, 'aaa', 0, '2021-04-14', 'Hehe', 'SP002'),
+(6, 'tu', 0, '2021-04-14', 'Dep qua shop oi', 'SP002'),
+(7, 'tu', 0, '2021-04-14', 'Dep qua shop oi', 'SP002'),
+(8, 'Tran Tu', 1, '2021-04-14', 'Thay Sinh dep trai', 'SP004');
 
 -- --------------------------------------------------------
 
@@ -89,6 +93,17 @@ CREATE TABLE `b_cthdb` (
 --
 
 INSERT INTO `b_cthdb` (`SoHDB`, `MaSP`, `SoLuong`, `DonGia`, `GiamGia`, `ThanhTien`) VALUES
+('15', 'SP002', 1, 30000, NULL, 30000),
+('16', 'SP002', 3, 30000, NULL, 90000),
+('17', 'SP002', 3, 30000, NULL, 90000),
+('18', 'SP002', 2, 30000, NULL, 60000),
+('20', 'SP002', 1, 30000, NULL, 30000),
+('26', 'SP002', 1, 30000, NULL, 30000),
+('31', 'SP004', 1, 69000, NULL, 69000),
+('32', 'SP004', 1, 69000, NULL, 69000),
+('33', 'SP002', 1, 30000, NULL, 30000),
+('34', 'SP002', 1, 30000, NULL, 30000),
+('35', 'SP002', 1, 30000, NULL, 30000),
 ('HD001', 'SP001', 2, 300000, 0, 600000);
 
 -- --------------------------------------------------------
@@ -165,7 +180,8 @@ CREATE TABLE `b_dmsp` (
 
 INSERT INTO `b_dmsp` (`MaSP`, `TenSP`, `DonGia`, `MoTa`, `DVT`, `SL`, `Anh`, `Anh1`, `Anh2`, `Anh3`, `Anh4`, `id_dm`) VALUES
 ('SP002', 'Sắt', 30000, '', 'kg', 5, '3CE5.jpg', NULL, NULL, NULL, NULL, 1),
-('SP003', 'Hello', 69000, NULL, NULL, 500, '', NULL, NULL, NULL, NULL, 3);
+('SP003', 'Hello', 69000, NULL, NULL, 500, '', NULL, NULL, NULL, NULL, 3),
+('SP004', 'Mặt nạ đọa đầy', 69000, 'Hahah', 'Chiếc', 500, 'velvet041.jpg', NULL, NULL, NULL, NULL, 1);
 
 -- --------------------------------------------------------
 
@@ -202,7 +218,30 @@ INSERT INTO `b_hdb` (`SoHDB`, `Ngay`, `TongTien`, `MaNV`, `MaKH`, `ten`, `ho`, `
 (9, '2021-04-13', 60000, NULL, NULL, 'Tu', 'Van', 'tuvantran.it@gmail.com', '0963273254', 'So 65 pho Tram Long Bien Ha Noi'),
 (10, '2021-04-13', 60000, NULL, NULL, 'Tu', 'Van', 'tuvantran.it@gmail.com', '0963273254', 'So 65 pho Tram Long Bien Ha Noi'),
 (11, '2021-04-13', 60000, NULL, NULL, 'Tu', 'Van', 'tuvantran.it@gmail.com', '0963273254', 'So 65 pho Tram Long Bien Ha Noi'),
-(12, '2021-04-13', 60000, NULL, NULL, 'Tu', 'Van', 'tuvantran.it@gmail.com', '0963273254', 'So 65 pho Tram Long Bien Ha Noi');
+(12, '2021-04-13', 60000, NULL, NULL, 'Tu', 'Van', 'tuvantran.it@gmail.com', '0963273254', 'So 65 pho Tram Long Bien Ha Noi'),
+(13, '2021-04-14', 30000, NULL, NULL, '', '', '', '', ''),
+(14, '2021-04-14', 30000, NULL, NULL, '', '', '', '', ''),
+(15, '2021-04-14', 30000, NULL, NULL, 'a', 'b', 'a@gmail.com', '113', 'aasfasd'),
+(16, '2021-04-14', 90000, NULL, NULL, 'a', 'b', 'c@gmail.com', '113', 'jj'),
+(17, '2021-04-14', 90000, NULL, NULL, 'a', 'b', 'c@gmail.com', '113', 'jj'),
+(18, '2021-04-14', 60000, NULL, NULL, 'a', 'b', 'cc@gmail.com', '1', 'a'),
+(19, '2021-04-14', 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+(20, '2021-04-14', 30000, NULL, NULL, 'f', 'b', 'cc@gmail.com', 'd', '4'),
+(21, '2021-04-14', 0, NULL, NULL, 'f', 'b', 'cc@gmail.com', 'd', '4'),
+(22, '2021-04-14', 0, NULL, NULL, 'f', 'b', 'cc@gmail.com', 'd', '4'),
+(23, '2021-04-14', 0, NULL, NULL, 'f', 'b', 'cc@gmail.com', 'd', '4'),
+(24, '2021-04-14', 0, NULL, NULL, 'Tu', 'Van', 'tuvantran.it@gmail.com', '0963273254', 'So 65 pho Tram Long Bien Ha Noi'),
+(25, '2021-04-14', 0, NULL, NULL, 'Tu', 'Van', 'tuvantran.it@gmail.com', '0963273254', 'So 65 pho Tram Long Bien Ha Noi'),
+(26, '2021-04-14', 30000, NULL, NULL, 'Tu', 'Van', 'tuvantran.it@gmail.com', '0963273254', 'So 65 pho Tram Long Bien Ha Noi'),
+(27, '2021-04-14', 474000, NULL, NULL, 'Tu', 'Tran', 'tuvantran.it@gmail.com', '113', 'Ha Nôi'),
+(28, '2021-04-14', 474000, NULL, NULL, 'Tu', 'Tran', 'tuvantran.it@gmail.com', '113', 'Ha Nôi'),
+(29, '2021-04-14', 474000, NULL, NULL, 'Tu', 'Tran', 'tuvantran.it@gmail.com', '113', 'Ha Nôi'),
+(30, '2021-04-14', 0, NULL, NULL, 'Tu', 'Tran', 'tuvantran.it@gmail.com', '113', 'Ha Nôi'),
+(31, '2021-04-14', 69000, NULL, NULL, 'Tu', 'Tran', 'tuvantran.it@gmail.com', '113', 'Ha Nôi'),
+(32, '2021-04-14', 69000, NULL, NULL, 'Tu', 'Tran', 'tuvantran.it@gmail.com', '113', 'Ha Nôi'),
+(33, '2021-04-14', 30000, NULL, NULL, 'Tu', 'Tran', 'tuvantran.it@gmail.com', '113', 'Ha Nôi'),
+(34, '2021-04-14', 30000, NULL, NULL, 'Tu', 'Tran', 'tuvantran.it@gmail.com', '113', 'Ha Nôi'),
+(35, '2021-04-14', 30000, NULL, NULL, 'Tu', 'Tran', 'tuvantran.it@gmail.com', '113', 'So 65 pho Tram Long Bien Ha Noi');
 
 -- --------------------------------------------------------
 
@@ -404,7 +443,7 @@ ALTER TABLE `b_dm`
 -- AUTO_INCREMENT cho bảng `b_hdb`
 --
 ALTER TABLE `b_hdb`
-  MODIFY `SoHDB` int(8) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `SoHDB` int(8) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=36;
 
 --
 -- AUTO_INCREMENT cho bảng `b_loaidm`
