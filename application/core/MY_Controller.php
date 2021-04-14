@@ -33,7 +33,7 @@ class Layout extends CI_Controller {
 		);
 
 		$this->db->insert('b_cmt', $object);
-		redirect(base_url('product/detail/?id='.$id),'refresh');
+		redirect(base_url('product/detail?id_sp='.$id),'refresh');
 	}
 
 	public function render(){
