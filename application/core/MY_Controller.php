@@ -23,6 +23,7 @@ class Layout extends CI_Controller {
 		// // $this->_data ['title'] = 'GetFly Managers';
 		// $this->_data ['user_info'] = $session_data;
 	}
+
 	public function BinhLuan($id){
 
 		$object = array(

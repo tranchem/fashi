@@ -9,10 +9,20 @@ class Mycontroller extends CI_Controller {
 /////////////////////////////////////////////////////////////////////////////////////////////////
 
 	///////////////////////////////////////DMSP//////////////////////////////////////////////
+	public function HienThiDm()
+	{
+		$this->load->model('mymodel');
+		$result['dm'] = $this->mymodel->HienThiDm()->result_array();
+		$this->load->view('view_admin/examples/addModal', $result);
+		$this->load->view('view_update/indexSP', $result);
+	}
+
+
 	public function tables()
 	{
 		$this->load->model('mymodel');
 		$result['sp'] = $this->mymodel->HienThiDmsp()->result_array();
+		$result['dm'] = $this->mymodel->HienThiDm()->result_array();
 		$result['ncc'] = $this->mymodel->HienThiNCC()->result_array();
 		$result['kh'] = $this->mymodel->HienThiKH()->result_array();
 		$result['hdb'] = $this->mymodel->HienThiHDB()->result_array();
@@ -28,6 +38,7 @@ class Mycontroller extends CI_Controller {
 		$data['donvitinh'] = $this->input->post('input_donvitinh');
 		$data['soluong'] = $this->input->post('input_soluong');
 		$data['mota'] = $this->input->post('input_mota');
+		$data['iddm'] = $this->input->post('id_dm');
 		
 		$config['upload_path'] = './uploads/SanPham/';
 		$config['allowed_types'] = 'gif|jpg|png';
@@ -40,6 +51,34 @@ class Mycontroller extends CI_Controller {
 		else{
 			$dataimg = array('upload_data' => $this->upload->data());
 			$data['img'] = $dataimg['upload_data']['file_name'];
+		}
+		if ( ! $this->upload->do_upload('input_img1')){
+			$error = array('error' => $this->upload->display_errors());
+		}
+		else{
+			$dataimg = array('upload_data' => $this->upload->data());
+			$data['img1'] = $dataimg['upload_data']['file_name'];
+		}
+		if ( ! $this->upload->do_upload('input_img2')){
+			$error = array('error' => $this->upload->display_errors());
+		}
+		else{
+			$dataimg = array('upload_data' => $this->upload->data());
+			$data['img2'] = $dataimg['upload_data']['file_name'];
+		}
+		if ( ! $this->upload->do_upload('input_img3')){
+			$error = array('error' => $this->upload->display_errors());
+		}
+		else{
+			$dataimg = array('upload_data' => $this->upload->data());
+			$data['img3'] = $dataimg['upload_data']['file_name'];
+		}
+		if ( ! $this->upload->do_upload('input_img4')){
+			$error = array('error' => $this->upload->display_errors());
+		}
+		else{
+			$dataimg = array('upload_data' => $this->upload->data());
+			$data['img4'] = $dataimg['upload_data']['file_name'];
 		}
 
 		$this->load->model('mymodel');
@@ -83,7 +122,17 @@ class Mycontroller extends CI_Controller {
 	}
 
 	public function UpdateSP($id){
+		$data['masp'] = $this->input->post('input_masp');
+		$data['tensp'] = $this->input->post('input_tensp');
+		$data['dongia'] = $this->input->post('input_dongia');
+		$data['donvitinh'] = $this->input->post('input_donvitinh');
+		$data['mota'] = $this->input->post('input_mota');
+		$data['iddm'] = $this->input->post('input_id_dm');
 
+		if ($data) {
+			$this->load->model('mymodel');
+			$this->mymodel->UpdateSP($id, $data);
+		}
 		
 		
 	}

@@ -279,7 +279,7 @@
                       <a href="EditNV/<?php echo $value['MaNV'] ?>" type="button" rel="tooltip" title="Sửa" class="btn btn-primary btn-link btn-sm">
                         <i class="material-icons">edit</i>
                       
-                      <a onclick="return confirm('Bạn có chắc muốn xóa bản ghi này?');" href="<?= base_url('Uploads/NhanVien') ?>/Mycontroller/deleteNV/<?php echo $value['MaNV']?>" type="button" rel="tooltip" title="Xóa" class="btn btn-danger btn-link btn-sm">
+                      <a onclick="return confirm('Bạn có chắc muốn xóa bản ghi này?');" href="<?= base_url()?>/Mycontroller/deleteNV/<?php echo $value['MaNV']?>" type="button" rel="tooltip" title="Xóa" class="btn btn-danger btn-link btn-sm">
                         <i class="material-icons">close</i>
                       </a> 
                     </td>

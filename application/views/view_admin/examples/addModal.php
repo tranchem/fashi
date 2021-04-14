@@ -21,11 +21,27 @@
         <input type="text" placeholder="Đơn giá" class="form-control" name="input_dongia" required="">
         <input type="text" placeholder="Đơn vị tính" class="form-control"  name="input_donvitinh" required="">
         <input type="text" placeholder="Số lượng" class="form-control" name="input_soluong" required="">
+        <select name="id_dm" id="" class="form-control" >
+          <?php foreach ($dm as $key => $value): ?>
+            
+          <option value="<?php echo $value['id_dm'] ?>"><?php echo $value['ten_dm'] ?></option>
+
+          <?php endforeach ?>
+        </select>
         <div>
           <textarea id="" cols="30" rows="10"class="form-control" placeholder="Mô tả" name="input_mota"></textarea>
         </div>
         <label for="input_img">Chọn ảnh</label>
         <input type="file" name="input_img">
+        
+        <input type="file" name="input_img1">
+        <label for="input_img">Chọn ảnh phụ</label>
+        <input type="file" name="input_img2">
+         <label for="input_img">Chọn ảnh phụ</label>
+        <input type="file" name="input_img3">
+         <label for="input_img">Chọn ảnh phụ</label>
+        <input type="file" name="input_img4">
+        <label for="input_img">Chọn ảnh phụ</label>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-primary" data-dismiss="modal">Hủy</button>

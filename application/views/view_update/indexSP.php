@@ -58,9 +58,24 @@
                                             <i class="zmdi zmdi-calendar-note input-icon js-btn-calendar"></i>
                                         </div>
                                     </div>
+                                    <div class="input-group">
+                                        <label class="label">Loại sản phẩm</label>
+                                        <div class="input-group-icon">
+                                            <select class="input--style-4 js-datepicker" name="input_id_dm" id="">
+                                 
+                                                <option value="1">Mặt nạ</option>
+                                                <option value="3">Sửa rửa mặt</option>
+                                                <option value="4">Xịt khoáng</option>
+                                                <option value="5">Phấn nước</option>
+                                                <option value="6">Kem nền</option>
+                                                <option value="7">Son môi</option>
+
+                                            </select>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="row row-space">
-                                    <textarea class="input--style-4" name="input_mota" id="" cols="50" rows="5">abc</textarea>
+                                    <textarea class="input--style-4" name="input_mota" id="" cols="50" rows="5"><?php echo $value['MoTa'] ?></textarea>
                                 </div>
                                 <div class="row row-space">
                                     <div class="col-1">
@@ -70,34 +85,35 @@
                                         </div>
                                     </div>
                                 </div>
-                                
-                                </div>
+                            </div>
 
-                                <div class="row row-space">
-                                    <img style="width:150px " src="<?= base_url('uploads/SanPham') ?>/<?php echo $value['Anh'] ?>" alt="">
-                                </div>
+                        </div>
 
-                                <div class="p-t-15">
-                                    <button class="btn btn--radius-2 btn--blue" type="submit">Lưu dữ liệu</button>
-                                </div>
-                            </form>
-                        <?php endforeach ?>
-                    </div>
-                </div>
+                        <div class="row row-space">
+                            <img style="width:150px " src="<?= base_url('uploads/SanPham') ?>/<?php echo $value['Anh'] ?>" alt="">
+                        </div>
+
+                        <div class="p-t-15">
+                            <button class="btn btn--radius-2 btn--blue" type="submit">Lưu dữ liệu</button>
+                        </div>
+                    </form>
+                <?php endforeach ?>
             </div>
         </div>
+    </div>
+</div>
 
-        <!-- Jquery JS-->
-        <script src="vendor/jquery/jquery.min.js"></script>
-        <!-- Vendor JS-->
-        <script src="vendor/select2/select2.min.js"></script>
-        <script src="vendor/datepicker/moment.min.js"></script>
-        <script src="vendor/datepicker/daterangepicker.js"></script>
+<!-- Jquery JS-->
+<script src="vendor/jquery/jquery.min.js"></script>
+<!-- Vendor JS-->
+<script src="vendor/select2/select2.min.js"></script>
+<script src="vendor/datepicker/moment.min.js"></script>
+<script src="vendor/datepicker/daterangepicker.js"></script>
 
-        <!-- Main JS-->
-        <script src="js/global.js"></script>
+<!-- Main JS-->
+<script src="js/global.js"></script>
 
-    </body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
 
-    </html>
+</html>
 <!-- end document-->

@@ -14,6 +14,10 @@ class Mymodel extends CI_Model {
 
 		return $this -> db -> get('b_dmsp');
 	}
+	public function HienThiDm(){
+
+		return $this -> db -> get('b_dm');
+	}
 
 	public function ThemSP($data){
 		$object = array(
@@ -23,7 +27,12 @@ class Mymodel extends CI_Model {
 			'MoTa'=>$data['mota'],
 			'DVT' =>$data['donvitinh'],
 			'SL' => $data['soluong'],
-			'Anh' =>$data['img'] 
+			'Anh' =>$data['img'],
+			'Anh1' =>$data['img1'], 
+			'Anh2' =>$data['img2'], 
+			'Anh3' =>$data['img3'], 
+			'Anh4' =>$data['img4'],  
+			'id_dm' =>$data['iddm'] 
 		);
 		$this->db->insert('b_dmsp', $object);
 		redirect(base_url('Mycontroller/tables'),'refresh');
@@ -40,8 +49,20 @@ class Mymodel extends CI_Model {
 		return $this->db->get('b_dmsp');
 	}
 
+
 	public function UpdateSP($id, $data){
 
+
+		$object = array('TenSP'=> $data['tensp'],
+						'DonGia'=> $data['dongia'],
+						'DVT'=>$data['donvitinh'],
+						'id_dm' => $data['iddm'],
+						'MoTa'=> $data['mota']
+						);
+
+		$this->db->where('MaSP', $id);
+		$this->db->update('b_dmsp', $object);
+		redirect(base_url('Mycontroller/tables'),'refresh');
 		
 		
 	}
